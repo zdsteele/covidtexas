@@ -1,1 +1,1 @@
-web: gunicorn covidtexas.app:app
+web: gunicorn site:app
