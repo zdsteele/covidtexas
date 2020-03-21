@@ -18,7 +18,7 @@ $.getJSON("/static/js/map.json", function (data) {
   var locations = data.features
 
 
-  console.log(locations)
+
 
   // Define arrays to hold created city and state markers
   // var cityMarkers = [];
@@ -100,7 +100,7 @@ $.getJSON("/static/js/map.json", function (data) {
 
 });
 
-d3.csv("/static/csv/stats.csv", function(stats){
+d3.csv("/static/csv/stats.csv", function (stats) {
 
   console.log(stats)
 
@@ -108,8 +108,7 @@ d3.csv("/static/csv/stats.csv", function(stats){
 
   Object.entries(stats).forEach(function ([key, value]) {
 
-            table.append("p").text(`${key}: ${value}`)
-        });
-
-
+    table.append("p").text(`${key}: ${value}`)
+  });
 })
+
