@@ -99,3 +99,17 @@ $.getJSON("/static/js/map.json", function (data) {
 
 
 });
+
+d3.csv("/static/csv/stats.csv", function(stats){
+
+  console.log(stats)
+
+  var table = d3.select("#meta");
+
+  Object.entries(stats).forEach(function ([key, value]) {
+
+            table.append("p").text(`${key}: ${value}`)
+        });
+
+
+})
