@@ -17,9 +17,6 @@ $.getJSON("/static/js/map.json", function (data) {
 
   var locations = data.features
 
-
-
-
   // Define arrays to hold created city and state markers
   // var cityMarkers = [];
   var countyMarkers = [];
@@ -39,7 +36,6 @@ $.getJSON("/static/js/map.json", function (data) {
         "</h3><hr><p>" + locations[i].properties.COVID_19_Cases + "</p>")
 
     );
-
     // Setting the marker radius for the city by passing population into the markerSize function
     // cityMarkers.push(
     //   L.circle(locations[i].coordinates, {
@@ -85,8 +81,8 @@ $.getJSON("/static/js/map.json", function (data) {
 
   // Define a map object
   var myMap = L.map("map", {
-    center: [29.00, -99.90],
-    zoom: 6,
+    center: [34.00, -99.90],
+    zoom: 7,
     layers: [streetmap, texas]
   });
 
@@ -95,8 +91,6 @@ $.getJSON("/static/js/map.json", function (data) {
   L.control.layers(baseMaps, overlayMaps, {
     collapsed: false
   }).addTo(myMap);
-
-
 
 });
 
