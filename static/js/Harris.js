@@ -62,6 +62,7 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
     var female = genderCounts.Female
     var male = genderCounts.Male
 
+    var config = { responsive: true }
 
     var pie_data = [{
         values: [female, male],
@@ -70,11 +71,45 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
     }];
 
     var pie_layout = {
+        title: 'Gender',
         height: 400,
-        width: 500
+        width: 500,
+        margin: { "t": 50, "b": 0, "l": 0, "r": 0 }
     };
 
-    Plotly.newPlot('pie', pie_data, pie_layout)
+    Plotly.newPlot('pie', pie_data, pie_layout, config)
+
+
+    // Counting the number of cases for each age range
+
+    var age_ranges = []
+
+    plotData.forEach(function(object, index) {
+        age_ranges.push(object.Age_Range)
+    });
+
+    var age_range_counts = counts(age_ranges);
+
+
+    var age_ranges_plot = Object.keys(age_range_counts);
+    var age_ranges_plot_counts = Object.values(age_range_counts);
+
+    var pie_data_2 = [{
+        values: age_ranges_plot_counts,
+        labels: age_ranges_plot,
+        type: 'pie'
+    }];
+
+    var pie_layout_2 = {
+        title: 'Age Category',
+        height: 400,
+        width: 500,
+        margin: { "t": 50, "b": 0, "l": 0, "r": 0 }
+    };
+
+    Plotly.newPlot('pie2', pie_data_2, pie_layout_2, config)
+
+
 
 
 });

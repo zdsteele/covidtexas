@@ -81,7 +81,7 @@ $.getJSON("/static/js/map.json", function(data) {
     // Define a map object
     var myMap = L.map("map", {
         center: [30.00, -99.90],
-        zoom: 8,
+        zoom: 6,
         layers: [streetmap, texas]
     });
 
