@@ -74,7 +74,7 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
         title: 'Gender',
         height: 400,
         width: 500,
-        margin: { "t": 50, "b": 0, "l": 0, "r": 0 }
+        margin: { "t": 50, "b": 0, "l": 50, "r": 50 }
     };
 
     Plotly.newPlot('pie', pie_data, pie_layout, config)
@@ -104,7 +104,7 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
         title: 'Age Category',
         height: 400,
         width: 500,
-        margin: { "t": 50, "b": 0, "l": 0, "r": 0 }
+        margin: { "t": 50, "b": 0, "l": 50, "r": 50 }
     };
 
     Plotly.newPlot('pie2', pie_data_2, pie_layout_2, config)
