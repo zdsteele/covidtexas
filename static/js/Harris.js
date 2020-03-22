@@ -42,5 +42,4 @@ d3.csv("/static/csv/harris_stats.csv").then(function(harris_stats) {
         $('.dataTables_length').addClass('bs-select');
     });
 
-
 });
