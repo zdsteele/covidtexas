@@ -73,7 +73,7 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
     var pie_layout = {
         title: 'Gender',
         height: 400,
-        width: 500,
+        width: 400,
         margin: { "t": 50, "b": 0, "l": 50, "r": 50 }
     };
 
@@ -103,7 +103,7 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
     var pie_layout_2 = {
         title: 'Age Category',
         height: 400,
-        width: 500,
+        width: 400,
         margin: { "t": 50, "b": 0, "l": 50, "r": 50 }
     };
 
