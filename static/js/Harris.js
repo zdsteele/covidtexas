@@ -43,3 +43,38 @@ d3.csv("/static/csv/harris_stats.csv").then(function(harris_stats) {
     });
 
 });
+
+
+//  Plotly Graphs 
+d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
+
+
+    var gender = []
+
+    plotData.forEach(function(object, index) {
+
+        gender.push(object.Sex)
+
+    });
+
+    // Counting the number of Males and Females in Harris County
+    var genderCounts = counts(gender)
+    var female = genderCounts.Female
+    var male = genderCounts.Male
+
+
+    var pie_data = [{
+        values: [female, male],
+        labels: ['Female', 'Male'],
+        type: 'pie'
+    }];
+
+    var pie_layout = {
+        height: 400,
+        width: 500
+    };
+
+    Plotly.newPlot('pie', pie_data, pie_layout)
+
+
+});
