@@ -11,3 +11,21 @@ function counts(arr) {
     });
     return dict;
 };
+
+function fillColor(magnitude) {
+    if (magnitude > 20) {
+        return 'red'
+    } else if (magnitude > 10 && magnitude < 20) {
+        return 'orange'
+    } else if (magnitude > 4 && magnitude < 10) {
+        return 'yellow'
+    } else if (magnitude > 3 && magnitude < 4) {
+        return 'purple'
+    } else if (magnitude > 2 && magnitude < 3) {
+        return 'purple'
+    } else if (magnitude > .1 && magnitude < 2) {
+        return 'purple'
+    } else {
+        return 'purple'
+    }
+};

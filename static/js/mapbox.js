@@ -29,7 +29,7 @@ $.getJSON("/static/js/map.json", function(data) {
                 stroke: false,
                 fillOpacity: 0.75,
                 color: "white",
-                fillColor: "red",
+                fillColor: fillColor(locations[i].properties.COVID_19_Cases),
                 radius: markerSize(locations[i].properties.COVID_19_Cases)
             }).bindPopup("<h4>" + locations[i].properties.Texas_County +
                 "</h3><hr><p>" + locations[i].properties.COVID_19_Cases + "</p>")
