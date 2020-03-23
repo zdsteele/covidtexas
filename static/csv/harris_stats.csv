@@ -50,3 +50,6 @@ Male,NW,50-59,Confirmed (exposure to confirmed case)
 Male,NW,40-49,Confirmed (community spread)
 Male,NW,20-29,Confirmed (community spread)
 Male,SW,40-49,Confirmed (community spread)
+Female,NW,40-49,Recovered
+Female,NW,60-69,Confirmed (community spread)
+Male,NW,50-59,Confirmed (travel-related)

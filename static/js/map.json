@@ -103,7 +103,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Castro",
-                "COVID_19_Cases": "1"
+                "COVID_19_Cases": "2"
             },
             "geometry": {
                 "type": "Point",
@@ -117,7 +117,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Chambers",
-                "COVID_19_Cases": "3"
+                "COVID_19_Cases": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -131,7 +131,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Collin",
-                "COVID_19_Cases": "21"
+                "COVID_19_Cases": "24"
             },
             "geometry": {
                 "type": "Point",
@@ -173,7 +173,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Dallas",
-                "COVID_19_Cases": "30"
+                "COVID_19_Cases": "33"
             },
             "geometry": {
                 "type": "Point",
@@ -242,6 +242,20 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Falls",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.25317017,
+                    -96.93579511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Fannin",
                 "COVID_19_Cases": "1"
             },
@@ -271,7 +285,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Galveston",
-                "COVID_19_Cases": "9"
+                "COVID_19_Cases": "15"
             },
             "geometry": {
                 "type": "Point",
@@ -326,8 +340,22 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Hockley",
+                "Texas_County": "Hidalgo",
                 "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.396627,
+                    -98.18088681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Hockley",
+                "COVID_19_Cases": "3"
             },
             "geometry": {
                 "type": "Point",
@@ -480,6 +508,20 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Parker",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.77852261,
+                    -97.80472194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Potter",
                 "COVID_19_Cases": "2"
             },
@@ -523,7 +565,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Tarrant",
-                "COVID_19_Cases": "8"
+                "COVID_19_Cases": "9"
             },
             "geometry": {
                 "type": "Point",
@@ -565,7 +607,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Wichita",
-                "COVID_19_Cases": "3"
+                "COVID_19_Cases": "4"
             },
             "geometry": {
                 "type": "Point",
@@ -579,7 +621,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Williamson",
-                "COVID_19_Cases": "9"
+                "COVID_19_Cases": "13"
             },
             "geometry": {
                 "type": "Point",
