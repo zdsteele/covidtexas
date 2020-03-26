@@ -4,7 +4,7 @@ $.getJSON("/static/js/map.json", function(data) {
 
     // Function to determine marker size based on population
     function markerSize(cases) {
-        return (cases * 3000);
+        return (cases);
     }
 
     function onEachFeature(feature, layer) {
@@ -25,11 +25,11 @@ $.getJSON("/static/js/map.json", function(data) {
         // Setting the marker radius for the state by passing population into the markerSize function
 
         countyMarkers.push(
-            L.circle(locations[i].geometry.coordinates, {
-                stroke: false,
+            L.circleMarker(locations[i].geometry.coordinates, {
+                stroke: true,
                 fillOpacity: 0.75,
-                color: "white",
-                fillColor: fillColor(locations[i].properties.COVID_19_Cases),
+                color: "black",
+                fillColor: "red",
                 radius: markerSize(locations[i].properties.COVID_19_Cases)
             }).bindPopup("<h4>" + locations[i].properties.Texas_County +
                 "</h3><hr><p>" + locations[i].properties.COVID_19_Cases + "</p>")
@@ -90,6 +90,9 @@ $.getJSON("/static/js/map.json", function(data) {
     L.control.layers(baseMaps, overlayMaps, {
         collapsed: false
     }).addTo(myMap);
+
+    L.control.scale().addTo(myMap);
+
 
 });
 
