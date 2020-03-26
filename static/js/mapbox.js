@@ -4,7 +4,7 @@ $.getJSON("/static/js/map.json", function(data) {
 
     // Function to determine marker size based on population
     function markerSize(cases) {
-        return (cases);
+        return (cases / 4);
     }
 
     function onEachFeature(feature, layer) {
