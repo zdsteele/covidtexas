@@ -5,14 +5,14 @@ d3.csv("/static/csv/harris_stats.csv").then(function(harris_stats) {
 
     harris_stats.forEach(function(row, i) {
 
-        harrisArray.push([row.Sex, row.Location, row.Age_Range, row.Status])
+        harrisArray.push([row.Patient, row.Sex, row.Age_Range, row.Location, row.Exposure, row.Status])
     });
 
     var table = d3.select("#table")
     var header = table.append("thead").append("tr");
     header
         .selectAll("th")
-        .data(["Sex", "Location", "Age_Range", "Status"])
+        .data(["Patient", "Gender", "Age_Range", 'Exposure', 'Location', "Status"])
         .enter()
         .append("th")
         .text(function(d) { return d; });
@@ -114,6 +114,29 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
     Plotly.newPlot('pie2', pie_data_2, pie_layout_2, config)
 
 
+
+
+
+});
+
+d3.csv("/static/csv/headlines.csv").then(function(headlines_raw) {
+
+    var headlines = [];
+
+    headlines_raw.forEach(function(row, i) {
+
+        headlines.push([row.Headline])
+    });
+
+
+
+    console.log(headlines)
+
+    var p = d3.select("#headlines").selectAll("p")
+        .data(headlines)
+        .enter()
+        .append("p")
+        .text(function(d) { return d; });
 
 
 

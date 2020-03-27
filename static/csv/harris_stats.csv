@@ -1,120 +1,136 @@
-Sex,Location,Age_Range,Status
-Female,SW,60-69,Recovered
-Male,SW,60-69,Recovered
-Male,NW,60-69,Recovered
-Female,NW,60-69,Recovered
-Female,SW,20-29,Recovered
-Male,NW,40-49,Confirmed (travel-related)
-Female,NW,40-49,Confirmed (travel-related)
-Male,NW,50-59,Recovered
-Male,NE,40-49,Confirmed (community spread)
-Female,SE,40-49,Confirmed (community spread)
-Male,NW,40-49,Recovered
-Male,SW,30-39,Confirmed (community spread)
-Male,NE,60-69,Confirmed (community spread)
-Female,NE,30-39,Confirmed (community spread)
-Male,NW,80-89,Deceased
-Male,NW,20-29,Confirmed (community spread)
-Female,SW,40-49,Confirmed (community spread)
-Male,NW,40-49,Confirmed (community spread)
-Female,NE,40-49,Confirmed (exposure to confirmed case)
-Male,NW,50-59,Recovered
-Female,SE,40-49,Confirmed (travel-related)
-Female,NW,60-69,Confirmed (travel-related)
-Female,NW,20-29,Confirmed (travel-related)
-Female,NW,30-39,Confirmed (community spread)
-Female,NW,20-29,Confirmed (community spread)
-Male,NW,50-59,Recovered
-Female,SE,50-59,Confirmed (community spread)
-Male,NW,30-39,Recovered
-Female,NW,20-29,Confirmed (community spread)
-Male,NW,50-59,Recovered
-Female,SW,50-59,Confirmed (community spread)
-Male,NW,20-29,Confirmed (community spread)
-Female,NE,50-59,Confirmed (exposure to confirmed case)
-Female,NE,50-59,Confirmed (community spread)
-Female,SW,20-29,Confirmed (travel-related)
-Male,SE,40-49,Confirmed (community spread)
-Male,NW,30-39,Confirmed (exposure to confirmed case)
-Female,NW,20-29,Confirmed (community spread)
-Male,NW,20-29,Confirmed (exposure to confirmed case)
-Female,NW,30-39,Confirmed (exposure to confirmed case)
-Male,NW,0-9,Confirmed (exposure to confirmed case)
-Female,NW,0-9,Confirmed (exposure to confirmed case)
-Female,NW,10-19,Confirmed (exposure to confirmed case)
-Female,NE,40-49,Confirmed (exposure to confirmed case)
-Male,NE,50-59,Confirmed (community spread)
-Male,NW,50-59,Confirmed (community spread)
-Female,NW,30-39,Confirmed (community spread)
-Male,NW,50-59,Confirmed (exposure to confirmed case)
-Male,NW,40-49,Confirmed (community spread)
-Male,NW,20-29,Confirmed (community spread)
-Male,SW,40-49,Confirmed (community spread)
-Female,NW,40-49,Recovered
-Female,NW,60-69,Confirmed (community spread)
-Male,NW,50-59,Confirmed (travel-related)
-Female,SE,50-59,Confirmed (community spread)
-Female,NW,40-49,Confirmed (exposure to confirmed case)
-Male,NE,60-69,Confirmed (community spread)
-Male,NW,20-29,Confirmed (exposure to confirmed case)
-Male,NW,20-29,Confirmed (community spread)
-Female,NW,50-59,Confirmed (community spread)
-Female,NW,30-39,Confirmed (community spread)
-Male,NE,30-39,Confirmed (community spread)
-Male,SE,20-29,Confirmed (travel-related)
-Male,NW,20-29,Confirmed (exposure to confirmed case)
-Male,NW,50-59,Confirmed (community spread)
-Female,NE,80-89,Confirmed (pending investigation)
-Male,NE,30-39,Confirmed (exposure to confirmed case)
-Female,NW,40-49,Confirmed (community spread)
-Female,NW,30-39,Confirmed (community spread)
-Female,SE,40-49,Confirmed (community spread)
-Male,SW,50-59,Confirmed (community spread)
-Male,SW,60-69,Confirmed (community spread)
-Female,NE,50-59,Confirmed (community spread)
-Male,NW,20-29,Confirmed (community spread)
-Female,NE,30-39,Confirmed (community spread)
-Female,NW,40-49,Confirmed (community spread)
-Male,NW,50-59,Confirmed (community spread)
-Male,NW,20-29,Confirmed (travel-related)
-Male,NW,40-49,Confirmed (pending investigation)
-Female,NW,40-49,Confirmed (community spread)
-Female,NW,60-69,Confirmed (community spread)
-Female,NW,20-29,Confirmed (community spread)
-Female,NW,20-29,Confirmed (domestic travel)
-Male,NW,40-49,Confirmed (community spread)
-Female,NW,30-39,Confirmed (community spread)
-Female,NW,30-39,Confirmed (travel-related)
-Male,NE,20-29,Confirmed (community spread)
-Female,NE,30-39,Confirmed (exposure to confirmed case)
-Female,NW,50-59,Confirmed (community spread)
-Male,NE,50-59,Confirmed (community spread)
-Female,NE,30-39,Confirmed (travel-related)
-Male,SW,40-49,Recovered
-Male,NW,40-49,Confirmed (community spread)
-Female,NW,70-79,Confirmed (community spread)
-Male,NW,40-49,Confirmed (community spread)
-Female,NW,70-79,Confirmed (community spread)
-Female,NW,70-79,Confirmed (community spread)
-Male,NW,20-29,Confirmed (travel-related)
-Male,NW,40-49,Confirmed (pending investigation)
-Male,NW,60-69,Confirmed (pending investigation)
-Male,NW,40-49,Confirmed (community spread)
-Male,NW,50-59,Confirmed (pending investigation)
-Male,SE,60-69,Confirmed (pending investigation)
-Male,NW,50-59,Confirmed (travel-related)
-Female,NE,50-59,Confirmed (pending investigation)
-Male,NE,30-39,Confirmed (pending investigation)
-Female,NW,40-49,Confirmed (pending investigation)
-Female,NE,20-29,Confirmed (pending investigation)
-Male,NE,30-39,Confirmed (community spread)
-Male,NW,40-49,Confirmed (pending investigation)
-Female,NW,20-29,Confirmed (travel-related)
-Female,NW,30-39,Confirmed (pending investigation)
-Female,NW,60-69,Confirmed (pending investigation)
-Male,NW,60-69,Confirmed (pending investigation)
-Male,NE,50-59,Confirmed (pending investigation)
-Male,NW,30-39,Confirmed (pending investigation)
-Female,NW,50-59,Confirmed (pending investigation)
-Male,SE,70-79,Confirmed (travel-related)
-Female,NW,40-49,Confirmed (pending investigation)
+Patient,Sex,Age_Range,Location,Exposure,Status
+1,Female,60 - 69,SW,History of Travel,Recovered
+2,Male,60 - 69,SW,History of Travel,Recovered
+3,Male,40 - 49,NW,Possible Exposure to Case,Active
+4,Male,60 - 69,NW,History of Travel,Recovered
+5,Male,40 - 49,NE,No Known Exposure,Active
+6,Female,60 - 69,NW,History of Travel,Recovered
+7,Male,50 - 59,NW,No Known Exposure,Recovered
+8,Male,40 - 49,NW,Possible Exposure to Case,Recovered
+9,Female,40 - 49,SE,No Known Exposure,Active
+10,Female,40 - 49,NW,Possible Exposure to Case,Active
+11,Female,40 - 49,NE,Possible Exposure to Case,Active
+12,Female,20 - 29,SW,History of Travel,Recovered
+13,Male,60 - 69,NE,No Known Exposure,Active
+14,Male,50 - 59,NW,History of Travel,Recovered
+15,Male,20 - 29,NW,No Known Exposure,Active
+16,Male,80+,NW,No Known Exposure,Deceased
+17,Male,30 - 39,NW,No Known Exposure,Recovered
+18,Male,50 - 59,NW,No Known Exposure,Active
+19,Male,30 - 39,SW,No Known Exposure,Active
+20,Female,20 - 29,SW,History of Travel,Active
+21,Female,30 - 39,NE,No Known Exposure,Active
+22,Female,40 - 49,SW,No Known Exposure,Active
+23,Female,60 - 69,NW,History of Travel,Active
+24,Male,50 - 59,NW,No Known Exposure,Recovered
+25,Male,40 - 49,NW,No Known Exposure,Recovered
+26,Female,20 - 29,NW,No Known Exposure,Active
+27,Male,40 - 49,SE,Possible Exposure to Case,Active
+28,Female,40 - 49,NE,Possible Exposure to Case,Active
+29,Male,50 - 59,NE,Investigation Pending,Active
+30,Female,40 - 49,SE,History of Travel,Active
+31,Female,20 - 29,NW,No Known Exposure,Active
+32,Female,30 - 39,NW,No Known Exposure,Active
+33,Male,20 - 29,NW,Investigation Pending,Active
+34,Female,20 - 29,NW,No Known Exposure,Active
+35,Female,50 - 59,SE,Possible Exposure to Case,Active
+36,Male,50 - 59,NW,Possible Exposure to Case,Recovered
+37,Female,50 - 59,NE,Possible Exposure to Case,Active
+38,Female,50 - 59,NE,Possible Exposure to Case,Active
+39,Male,40 - 49,SW,No Known Exposure,Active
+40,Male,20 - 29,NW,History of Travel,Active
+41,Male,30 - 39,NW,Investigation Pending,Active
+42,Female,50 - 59,NE,Investigation Pending,Active
+43,Male,30 - 39,NW,Possible Exposure to Case,Active
+44,Male,20 - 29,NW,No Known Exposure,Active
+45,Female,20 - 29,NW,No Known Exposure,Active
+46,Male,0 - 9,NW,Possible Exposure to Case,Active
+47,Female,30 - 39,NW,Possible Exposure to Case,Active
+48,Female,0 - 9,NW,Possible Exposure to Case,Active
+49,Female,10 - 19,NW,Possible Exposure to Case,Active
+50,Male,50 - 59,NW,Possible Exposure to Case,Active
+51,Male,40 - 49,NW,Investigation Pending,Active
+52,Female,30 - 39,NW,No Known Exposure,Active
+53,Female,40 - 49,NE,Investigation Pending,Active
+54,Female,40 - 49,NW,No Known Exposure,Recovered
+55,Female,60 - 69,NW,No Known Exposure,Active
+56,Male,50 - 59,NW,History of Travel,Active
+57,Male,20 - 29,NW,Investigation Pending,Active
+58,Male,20 - 29,NW,Investigation Pending,Active
+59,Female,50 - 59,NW,Possible Exposure to Case,Active
+60,Male,60 - 69,NE,Investigation Pending,Active
+61,Male,40 - 49,SW,History of Travel,Recovered
+62,Female,30 - 39,NW,No Known Exposure,Active
+63,Male,30 - 39,NE,Investigation Pending,Active
+64,Male,20 - 29,NW,Possible Exposure to Case,Active
+65,Male,50 - 59,NW,Investigation Pending,Active
+66,Male,20 - 29,SE,Investigation Pending,Active
+67,Male,20 - 29,SE,No Known Exposure,Active
+68,Male,70 - 79,NE,No Known Exposure,Active
+69,Female,50 - 59,NW,Investigation Pending,Active
+70,Female,30 - 39,NW,Investigation Pending,Active
+71,Female,40 - 49,SE,Investigation Pending,Active
+72,Male,50 - 59,SW,Investigation Pending,Active
+73,Male,60 - 69,SW,Investigation Pending,Active
+74,Male,20 - 29,NW,Investigation Pending,Active
+75,Female,50 - 59,NE,Investigation Pending,Active
+76,Female,30 - 39,NE,Investigation Pending,Active
+77,Male,50 - 59,NW,Investigation Pending,Active
+78,Female,40 - 49,NW,Investigation Pending,Active
+79,Male,20 - 29,NW,History of Travel,Active
+80,Male,40 - 49,NW,Investigation Pending,Active
+81,Male,50 - 59,NE,Investigation Pending,Active
+82,Female,20 - 29,NW,Investigation Pending,Active
+83,Female,30 - 39,NW,Investigation Pending,Active
+84,Female,30 - 39,NW,Investigation Pending,Active
+85,Male,40 - 49,NW,No Known Exposure,Active
+86,Female,70 - 79,NW,Investigation Pending,Active
+87,Female,60 - 69,NW,Investigation Pending,Active
+88,Male,20 - 29,NE,Investigation Pending,Active
+89,Female,30 - 39,NE,No Known Exposure,Active
+90,Female,30 - 39,NE,Investigation Pending,Active
+91,Male,40 - 49,NW,No Known Exposure,Active
+92,Female,70 - 79,NW,Investigation Pending,Active
+93,Female,40 - 49,NW,No Known Exposure,Active
+94,Male,20 - 29,NW,Investigation Pending,Active
+95,Male,50 - 59,NW,No Known Exposure,Active
+96,Male,60 - 69,SE,Investigation Pending,Active
+97,Male,50 - 59,NW,Investigation Pending,Active
+98,Female,50 - 59,NE,Investigation Pending,Active
+99,Male,40 - 49,NW,Investigation Pending,Active
+100,Male,30 - 39,NE,Investigation Pending,Active
+101,Male,60 - 69,NW,Investigation Pending,Active
+102,Male,40 - 49,NW,Investigation Pending,Active
+103,Female,40 - 49,NW,Investigation Pending,Active
+104,Female,20 - 29,NE,Investigation Pending,Active
+105,Male,30 - 39,NE,Investigation Pending,Active
+106,Male,40 - 49,NW,Investigation Pending,Active
+107,Female,20 - 29,NW,History of Travel,Active
+108,Female,30 - 39,NW,Investigation Pending,Active
+109,Female,60 - 69,NW,No Known Exposure,Active
+110,Male,60 - 69,NW,Investigation Pending,Active
+111,Female,50 - 59,NW,No Known Exposure,Active
+112,Male,70 - 79,SE,History of Travel,Active
+113,Female,40 - 49,NW,Investigation Pending,Active
+114,Female,50 - 59,SE,Investigation Pending,Active
+115,Female,70 - 79,NW,Investigation Pending,Active
+116,Female,50 - 59,NW,History of Travel,Active
+117,Female,80+,NE,Investigation Pending,Active
+118,Female,30 - 39,NW,Possible Exposure to Case,Active
+119,Female,30 - 39,SW,Investigation Pending,Active
+120,Female,60 - 69,SW,Investigation Pending,Active
+121,Female,50 - 59,NW,Investigation Pending,Active
+122,Male,40 - 49,NW,Investigation Pending,Active
+123,Female,50 - 59,SW,History of Travel,Active
+124,Female,20 - 29,NE,No Known Exposure,Active
+125,Female,50 - 59,SW,History of Travel,Active
+126,Male,30 - 39,NW,Investigation Pending,Active
+127,Male,40 - 49,NW,Investigation Pending,Active
+128,Female,40 - 49,NW,Investigation Pending,Active
+129,Male,50 - 59,SW,Investigation Pending,Active
+130,Female,20 - 29,NW,History of Travel,Active
+131,Male,40 - 49,SW,No Known Exposure,Active
+132,Male,40 - 49,SE,Investigation Pending,Active
+133,Female,40 - 49,NW,No Known Exposure,Active
+134,Male,70 - 79,SW,Investigation Pending,Active
+135,Male,20 - 29,SW,Investigation Pending,Active
