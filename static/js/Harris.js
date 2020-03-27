@@ -67,14 +67,16 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
     var pie_data = [{
         values: [female, male],
         labels: ['Female', 'Male'],
+        textinfo: "label+percent",
         type: 'pie'
     }];
 
     var pie_layout = {
         title: 'Gender',
-        height: 400,
-        width: 400,
-        margin: { "t": 50, "b": 0, "l": 50, "r": 50 }
+        height: 500,
+        width: 500,
+        margin: { "t": 50, "b": 0, "l": 0, "r": 0 },
+        showlegend: false
     };
 
     Plotly.newPlot('pie', pie_data, pie_layout, config)
@@ -97,17 +99,20 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
     var pie_data_2 = [{
         values: age_ranges_plot_counts,
         labels: age_ranges_plot,
+        textinfo: "label+percent",
         type: 'pie'
     }];
 
     var pie_layout_2 = {
-        title: 'Age Category',
-        height: 400,
-        width: 400,
-        margin: { "t": 50, "b": 0, "l": 50, "r": 50 }
+        title: 'Age Range',
+        height: 500,
+        width: 500,
+        margin: { "t": 50, "b": 0, "l": 0, "r": 50 },
+        showlegend: false
     };
 
     Plotly.newPlot('pie2', pie_data_2, pie_layout_2, config)
+
 
 
 
