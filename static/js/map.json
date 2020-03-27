@@ -5,7 +5,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Dallas",
-                "COVID_19_Cases": "303"
+                "COVID_19_Cases": "367"
             },
             "geometry": {
                 "type": "Point",
@@ -19,7 +19,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Harris",
-                "COVID_19_Cases": "185"
+                "COVID_19_Cases": "203"
             },
             "geometry": {
                 "type": "Point",
@@ -33,7 +33,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Travis",
-                "COVID_19_Cases": "119"
+                "COVID_19_Cases": "137"
             },
             "geometry": {
                 "type": "Point",
@@ -46,22 +46,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Tarrant",
-                "COVID_19_Cases": "90"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.77185236,
-                    -97.29116473
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Bexar",
-                "COVID_19_Cases": "84"
+                "COVID_19_Cases": "113"
             },
             "geometry": {
                 "type": "Point",
@@ -74,28 +60,14 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Denton",
-                "COVID_19_Cases": "70"
+                "Texas_County": "Tarrant",
+                "COVID_19_Cases": "100"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    33.205574,
-                    -97.11681154
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Texas_County": "Fort Bend",
-                "COVID_19_Cases": "54"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.52763253,
-                    -95.77090562
+                    32.77185236,
+                    -97.29116473
                 ]
             }
         },
@@ -103,7 +75,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Collin",
-                "COVID_19_Cases": "53"
+                "COVID_19_Cases": "88"
             },
             "geometry": {
                 "type": "Point",
@@ -116,14 +88,28 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Brazoria",
-                "COVID_19_Cases": "33"
+                "Texas_County": "Fort Bend",
+                "COVID_19_Cases": "86"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    29.19345387,
-                    -95.45578479
+                    29.52763253,
+                    -95.77090562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Denton",
+                "COVID_19_Cases": "83"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.205574,
+                    -97.11681154
                 ]
             }
         },
@@ -131,7 +117,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Montgomery",
-                "COVID_19_Cases": "31"
+                "COVID_19_Cases": "41"
             },
             "geometry": {
                 "type": "Point",
@@ -144,22 +130,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "McLennan",
-                "COVID_19_Cases": "28"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    31.55234489,
-                    -97.20184883
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Galveston",
-                "COVID_19_Cases": "27"
+                "COVID_19_Cases": "40"
             },
             "geometry": {
                 "type": "Point",
@@ -172,8 +144,50 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Brazoria",
+                "COVID_19_Cases": "39"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.19345387,
+                    -95.45578479
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "McLennan",
+                "COVID_19_Cases": "33"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.55234489,
+                    -97.20184883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Brazos",
+                "COVID_19_Cases": "30"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.6610425,
+                    -96.3022943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Williamson",
-                "COVID_19_Cases": "22"
+                "COVID_19_Cases": "27"
             },
             "geometry": {
                 "type": "Point",
@@ -186,14 +200,14 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Brazos",
-                "COVID_19_Cases": "21"
+                "Texas_County": "Lubbock",
+                "COVID_19_Cases": "23"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    30.6610425,
-                    -96.3022943
+                    33.6101944,
+                    -101.8205745
                 ]
             }
         },
@@ -214,36 +228,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Bell",
-                "COVID_19_Cases": "19"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    31.03778267,
-                    -97.47790776
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Texas_County": "Lubbock",
-                "COVID_19_Cases": "19"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    33.6101944,
-                    -101.8205745
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Smith",
-                "COVID_19_Cases": "16"
+                "COVID_19_Cases": "21"
             },
             "geometry": {
                 "type": "Point",
@@ -256,8 +242,22 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Bell",
+                "COVID_19_Cases": "20"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.03778267,
+                    -97.47790776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Nueces",
-                "COVID_19_Cases": "14"
+                "COVID_19_Cases": "18"
             },
             "geometry": {
                 "type": "Point",
@@ -270,8 +270,22 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Hays",
+                "COVID_19_Cases": "13"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.05782657,
+                    -98.03104087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Webb",
-                "COVID_19_Cases": "10"
+                "COVID_19_Cases": "13"
             },
             "geometry": {
                 "type": "Point",
@@ -284,14 +298,70 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Hays",
+                "Texas_County": "Wichita",
+                "COVID_19_Cases": "12"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.98421585,
+                    -98.70153389
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Hidalgo",
+                "COVID_19_Cases": "11"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.396627,
+                    -98.18088681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Cameron",
+                "COVID_19_Cases": "10"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.13847728,
+                    -97.51499968
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Ellis",
+                "COVID_19_Cases": "10"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.34839264,
+                    -96.79467417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Comal",
                 "COVID_19_Cases": "9"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    30.05782657,
-                    -98.03104087
+                    29.80816362,
+                    -98.27814516
                 ]
             }
         },
@@ -326,64 +396,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Wichita",
-                "COVID_19_Cases": "8"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    33.98421585,
-                    -98.70153389
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Texas_County": "Cameron",
-                "COVID_19_Cases": "7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    26.13847728,
-                    -97.51499968
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Texas_County": "Comal",
-                "COVID_19_Cases": "7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.80816362,
-                    -98.27814516
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Texas_County": "Hidalgo",
-                "COVID_19_Cases": "7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    26.396627,
-                    -98.18088681
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Jefferson",
-                "COVID_19_Cases": "7"
+                "COVID_19_Cases": "8"
             },
             "geometry": {
                 "type": "Point",
@@ -397,7 +411,7 @@
             "type": "Feature",
             "properties": {
                 "Texas_County": "Castro",
-                "COVID_19_Cases": "6"
+                "COVID_19_Cases": "7"
             },
             "geometry": {
                 "type": "Point",
@@ -410,14 +424,28 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Ellis",
+                "Texas_County": "Johnson",
                 "COVID_19_Cases": "6"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.34839264,
-                    -96.79467417
+                    32.37899918,
+                    -97.36660504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Midland",
+                "COVID_19_Cases": "6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.86921148,
+                    -102.0315032
                 ]
             }
         },
@@ -438,14 +466,42 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Midland",
+                "Texas_County": "Gregg",
                 "COVID_19_Cases": "4"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    31.86921148,
-                    -102.0315032
+                    32.48036452,
+                    -94.81723694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Hardin",
+                "COVID_19_Cases": "4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.33238431,
+                    -94.39021394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Kendall",
+                "COVID_19_Cases": "4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.9446397,
+                    -98.71160511
                 ]
             }
         },
@@ -466,56 +522,42 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Gregg",
+                "Texas_County": "De Witt",
                 "COVID_19_Cases": "3"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.48036452,
-                    -94.81723694
+                    29.08201599,
+                    -97.35666976
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Johnson",
+                "Texas_County": "Medina",
                 "COVID_19_Cases": "3"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.37899918,
-                    -97.36660504
+                    29.35520493,
+                    -99.11008331
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Kendall",
+                "Texas_County": "Rockwall",
                 "COVID_19_Cases": "3"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    29.9446397,
-                    -98.71160511
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Texas_County": "Terry",
-                "COVID_19_Cases": "3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    33.17373729,
-                    -102.335157
+                    32.89786769,
+                    -96.40780584
                 ]
             }
         },
@@ -536,20 +578,6 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Walker",
-                "COVID_19_Cases": "3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.73899492,
-                    -95.57224172
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Wharton",
                 "COVID_19_Cases": "3"
             },
@@ -558,6 +586,20 @@
                 "coordinates": [
                     29.2778362,
                     -96.22197375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Angelina",
+                "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.25475875,
+                    -94.611742
                 ]
             }
         },
@@ -586,6 +628,20 @@
                 "coordinates": [
                     30.10353518,
                     -97.31187705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Bowie",
+                "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.44572786,
+                    -94.42324298
                 ]
             }
         },
@@ -634,20 +690,6 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "De Witt",
-                "COVID_19_Cases": "2"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.08201599,
-                    -97.35666976
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Eastland",
                 "COVID_19_Cases": "2"
             },
@@ -690,14 +732,14 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Hardin",
+                "Texas_County": "Hood",
                 "COVID_19_Cases": "2"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    30.33238431,
-                    -94.39021394
+                    32.43107878,
+                    -97.83280338
                 ]
             }
         },
@@ -712,6 +754,20 @@
                 "coordinates": [
                     32.59927808,
                     -96.28779341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Liberty",
+                "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.15153187,
+                    -94.8120925
                 ]
             }
         },
@@ -760,34 +816,6 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Potter",
-                "COVID_19_Cases": "2"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    35.40128927,
-                    -101.8940484
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Texas_County": "Rockwall",
-                "COVID_19_Cases": "2"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.89786769,
-                    -96.40780584
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Rusk",
                 "COVID_19_Cases": "2"
             },
@@ -796,6 +824,20 @@
                 "coordinates": [
                     32.10803224,
                     -94.76169577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Starr",
+                "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.56212627,
+                    -98.73834895
                 ]
             }
         },
@@ -816,14 +858,28 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Angelina",
-                "COVID_19_Cases": "1"
+                "Texas_County": "Val Verde",
+                "COVID_19_Cases": "2"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    31.25475875,
-                    -94.611742
+                    29.89300587,
+                    -101.15171
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Walker",
+                "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.73899492,
+                    -95.57224172
                 ]
             }
         },
@@ -858,20 +914,6 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Bowie",
-                "COVID_19_Cases": "1"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    33.44572786,
-                    -94.42324298
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Burnet",
                 "COVID_19_Cases": "1"
             },
@@ -894,6 +936,20 @@
                 "coordinates": [
                     33.07750446,
                     -94.34348771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Cherokee",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.83695632,
+                    -95.16515234
                 ]
             }
         },
@@ -998,6 +1054,34 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Hale",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.07051782,
+                    -101.8269082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Harrison",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.54814898,
+                    -94.37155736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Hopkins",
                 "COVID_19_Cases": "1"
             },
@@ -1082,20 +1166,6 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Liberty",
-                "COVID_19_Cases": "1"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.15153187,
-                    -94.8120925
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Texas_County": "Limestone",
                 "COVID_19_Cases": "1"
             },
@@ -1138,14 +1208,14 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Medina",
+                "Texas_County": "Montague",
                 "COVID_19_Cases": "1"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    29.35520493,
-                    -99.11008331
+                    33.67496328,
+                    -97.72466993
                 ]
             }
         },
@@ -1180,6 +1250,20 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Navarro",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.04695429,
+                    -96.47248134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Oldham",
                 "COVID_19_Cases": "1"
             },
@@ -1202,6 +1286,20 @@
                 "coordinates": [
                     30.12807126,
                     -93.89653794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Potter",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.40128927,
+                    -101.8940484
                 ]
             }
         },
@@ -1236,6 +1334,48 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Shelby",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.79242191,
+                    -94.14495261
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Taylor",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.30138229,
+                    -99.89003941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Terry",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.17373729,
+                    -102.335157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Upshur",
                 "COVID_19_Cases": "1"
             },
@@ -1250,14 +1390,14 @@
         {
             "type": "Feature",
             "properties": {
-                "Texas_County": "Val Verde",
+                "Texas_County": "Uvalde",
                 "COVID_19_Cases": "1"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    29.89300587,
-                    -101.15171
+                    29.35669829,
+                    -99.76203107
                 ]
             }
         },
@@ -1278,6 +1418,20 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Willacy",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.47132899,
+                    -97.64303323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Wilson",
                 "COVID_19_Cases": "1"
             },
@@ -1286,6 +1440,34 @@
                 "coordinates": [
                     29.17315896,
                     -98.08621015000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Yoakum",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.17293501,
+                    -102.8278792
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Young",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.17670764,
+                    -98.68781396
                 ]
             }
         }
