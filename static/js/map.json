@@ -88,6 +88,20 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Fort Bend",
+                "COVID_19_Cases": "54"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.52763253,
+                    -95.77090562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Collin",
                 "COVID_19_Cases": "53"
             },
@@ -180,6 +194,20 @@
                 "coordinates": [
                     30.6610425,
                     -96.3022943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "El Paso",
+                "COVID_19_Cases": "21"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.768622600000004,
+                    -106.23522290000001
                 ]
             }
         },
@@ -592,6 +620,34 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "Deaf Smith",
+                "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.96602014,
+                    -102.6048162
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "De Witt",
+                "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.08201599,
+                    -97.35666976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Eastland",
                 "COVID_19_Cases": "2"
             },
@@ -740,6 +796,20 @@
                 "coordinates": [
                     32.10803224,
                     -94.76169577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Tom Green",
+                "COVID_19_Cases": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.404444199999997,
+                    -100.4620678
                 ]
             }
         },
@@ -1152,6 +1222,20 @@
         {
             "type": "Feature",
             "properties": {
+                "Texas_County": "San Patricio",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.00922186,
+                    -97.51859857
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Texas_County": "Upshur",
                 "COVID_19_Cases": "1"
             },
@@ -1160,6 +1244,34 @@
                 "coordinates": [
                     32.7362827,
                     -94.94132011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Val Verde",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.89300587,
+                    -101.15171
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Texas_County": "Van Zandt",
+                "COVID_19_Cases": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.56368961,
+                    -95.8364862
                 ]
             }
         },
