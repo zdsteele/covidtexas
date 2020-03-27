@@ -6,8 +6,7 @@ body {
 }
 
 html,
-body,
-#map {
+body {
     height: 100vw;
     width: 100vw;
 }

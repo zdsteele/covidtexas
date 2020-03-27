@@ -106,4 +106,23 @@ d3.csv("/static/csv/stats.csv", function(stats) {
 
         table.append("p").text(`${key}: ${value}`)
     });
-})
+});
+
+
+//  This seems to work
+var mapmargin = 50;
+$('#map').css("height", ($(window).height() - mapmargin));
+$(window).on("resize", resize);
+resize();
+
+function resize() {
+
+    if ($(window).width() >= 980) {
+        $('#map').css("height", ($(window).height() - mapmargin));
+        $('#map').css("margin-top", 50);
+    } else {
+        $('#map').css("height", ($(window).height() - (mapmargin + 12)));
+        $('#map').css("margin-top", -21);
+    }
+
+};
