@@ -120,24 +120,49 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
 });
 
 d3.csv("/static/csv/headlines.csv").then(function(headlines_raw) {
-
+    console.log(headlines_raw)
     var headlines = [];
+    var links = [];
 
     headlines_raw.forEach(function(row, i) {
 
         headlines.push([row.Headline])
+        links.push([row.link])
     });
 
 
+    var columns = ['Headline', 'link'];
 
-    console.log(headlines)
+    var table = d3.select('#headlines').append('table'),
+        thead = table.append('thead'),
+        tbody = table.append('tbody');
 
-    var p = d3.select("#headlines").selectAll("p")
-        .data(headlines)
+    thead.append('tr')
+        .selectAll('th')
+        .data(columns)
         .enter()
-        .append("p")
-        .text(function(d) { return d; });
+        .append('th')
+        .text(function(column) { return column; });
 
+    var rows = tbody.selectAll('tr')
+        .data(headlines_raw)
+        .enter()
+        .append('tr');
 
+    var cells = rows.selectAll('td')
+        .data(function(row) {
+            return columns.map(function(column) {
+                return { column: column, value: row[column] };
+            });
+        })
+        .enter()
+        .append('td')
+        .html(function(d) {
+            if (d.column === 'link') {
+                return "<a href=" + d.value + ">" + d.value + "</a>"
+            }
+            return d.value;
+
+        });
 
 });
