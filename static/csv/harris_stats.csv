@@ -134,3 +134,28 @@ Patient,Sex,Age_Range,Location,Exposure,Status
 133,Female,40 - 49,NW,No Known Exposure,Active
 134,Male,70 - 79,SW,Investigation Pending,Active
 135,Male,20 - 29,SW,Investigation Pending,Active
+136,Female,50 - 59,NW,Investigation Pending,Active
+137,Male,20 - 29,NW,No Known Exposure,Active
+138,Female,20 - 29,NE,Investigation Pending,Active
+139,Female,60 - 69,NE,Investigation Pending,Active
+140,Male,50 - 59,NE,Investigation Pending,Active
+141,Male,60 - 69,NW,Investigation Pending,Active
+142,Male,20 - 29,NE,Investigation Pending,Active
+143,Female,30 - 39,NW,Investigation Pending,Active
+144,Female,30 - 39,NE,Investigation Pending,Active
+145,Male,50 - 59,NE,Investigation Pending,Active
+146,Male,10 - 19s,SE,Possible Exposure to Case,Active
+147,Female,20 - 29,SE,Possible Exposure to Case,Active
+148,Female,80+,SE,Investigation Pending,Active
+149,Female,70 - 79,NW,Investigation Pending,Active
+150,Female,40 - 49,NE,Investigation Pending,Active
+151,Female,80+,NW,Investigation Pending,Active
+152,Male,20 - 29,SE,No Known Exposure,Active
+153,Female,30 - 39,NW,Investigation Pending,Active
+154,Male,30 - 39,NW,Investigation Pending,Active
+155,Male,40 - 49,NW,Investigation Pending,Active
+156,Female,60 - 69,NW,Investigation Pending,Active
+157,Male,40 - 49,NW,Investigation Pending,Active
+158,Female,40 - 49,NW,Investigation Pending,Active
+159,Male,50 - 59,NE,Investigation Pending,Active
+160,Female,20 - 29,NW,Investigation Pending,Active
