@@ -111,8 +111,8 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
         yaxis: {
             title: 'Number of Individuals with the Virus'
         },
-        height: 600,
-        width: 900,
+        // height: 600,
+        // width: 900,
         // margin: { "r": 50 },
         showlegend: false
     };
