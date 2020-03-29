@@ -35,7 +35,7 @@ d3.csv("/static/csv/harris_stats.csv").then(function(harris_stats) {
         });
     $(document).ready(function() {
         $('#table').DataTable({
-            "scrollY": "50vh",
+            "scrollY": "20vh",
             "scrollCollapse": true,
             paging: false,
         });
