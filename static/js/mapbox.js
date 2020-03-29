@@ -4,13 +4,13 @@ $.getJSON("/static/js/map.json", function(data) {
 
     // Function to determine marker size based on population
     function markerSize(cases) {
-        return (cases / 4);
+        return (cases / 5);
     }
 
     function onEachFeature(feature, layer) {
         // does this feature have a property named popupContent?
-        layer.bindPopup("<h4>" + feature.properties.Texas_County +
-            "</h3><hr><p>" + feature.properties.COVID_19_Cases + "</p>");
+        layer.bindPopup("<h4>" + feature.properties.County +
+            "</h3><hr><p>" + feature.properties.Positive + "</p>");
 
     }
 
@@ -30,9 +30,9 @@ $.getJSON("/static/js/map.json", function(data) {
                 fillOpacity: 0.75,
                 color: "black",
                 fillColor: "red",
-                radius: markerSize(locations[i].properties.COVID_19_Cases)
-            }).bindPopup("<h4>" + locations[i].properties.Texas_County +
-                "</h3><hr><p>" + locations[i].properties.COVID_19_Cases + "</p>")
+                radius: markerSize(locations[i].properties.Positive)
+            }).bindPopup("<h4>" + locations[i].properties.County +
+                "</h3><hr><p>" + "Cases: " + locations[i].properties.Positive + "</p>" + "<p>" + "Deaths: " + locations[i].properties.Deaths + "</p>")
 
         );
         // Setting the marker radius for the city by passing population into the markerSize function
