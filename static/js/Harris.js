@@ -131,38 +131,67 @@ d3.csv("/static/csv/headlines.csv").then(function(headlines_raw) {
     });
 
 
-    var columns = ['Headline', 'link'];
 
-    var table = d3.select('#headlines').append('table'),
-        thead = table.append('thead'),
-        tbody = table.append('tbody');
-
-    thead.append('tr')
-        .selectAll('th')
-        .data(columns)
-        .enter()
-        .append('th')
-        .text(function(column) { return column; });
-
-    var rows = tbody.selectAll('tr')
+    var articles = d3.select('#headlines').selectAll('p')
         .data(headlines_raw)
         .enter()
-        .append('tr');
+        .append("p")
+        .text(function(d) { return d.Headline })
+        .style("font-family", "sans-serif")
+        .style("font-size", "20px")
+        .style("color", "blue")
+        .style("text-decoration", "underline")
+        .style("cursor", "pointer")
+        .on("click", function(d) { window.open(d.link) })
 
-    var cells = rows.selectAll('td')
-        .data(function(row) {
-            return columns.map(function(column) {
-                return { column: column, value: row[column] };
-            });
-        })
-        .enter()
-        .append('td')
-        .html(function(d) {
-            if (d.column === 'link') {
-                return "<a href=" + d.value + ">" + d.value + "</a>"
-            }
-            return d.value;
+    // articles.on({
+    //     "mouseover": function(d) {
+    //         d3.select(this).style("cursor", "pointer");
+    //     },
+    //     "mouseout": function(d) {
+    //         d3.select(this).style("cursor", "default");
+    //     }
+    // });
 
-        });
+    // var hrefs = articles
+
+
+    // var columns = ['Headline', 'link'];
+
+    // var table = d3.select('#headlines').append('table'),
+    //     thead = table.append('thead'),
+    //     tbody = table.append('tbody');
+
+    // thead.append('tr')
+    //     .selectAll('th')
+    //     .data(columns)
+    //     .enter()
+    //     .append('th')
+    //     .text(function(column) { return column; });
+
+    // var rows = tbody.selectAll('tr')
+    //     .data(headlines_raw)
+    //     .enter()
+    //     .append('tr');
+
+    // var cells = rows.selectAll('td')
+    //     .data(function(row) {
+    //         return columns.map(function(column) {
+    //             return { column: column, value: row[column] };
+
+    //         });
+
+    //     })
+    //     .enter()
+    //     .append('td')
+    //     .html(function(d) {
+    //         if (d.column === 'link') {
+    //             return "<a href=" + d.value + ">" + d.value + "</a>"
+    //         }
+    //         return d.value;
+
+    //     });
+
+
 
 });

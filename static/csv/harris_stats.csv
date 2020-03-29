@@ -12,150 +12,203 @@ Patient,Sex,Age_Range,Location,Exposure,Status
 11,Female,40 - 49,NE,Possible Exposure to Case,Active
 12,Female,20 - 29,SW,History of Travel,Recovered
 13,Male,60 - 69,NE,No Known Exposure,Active
-14,Male,50 - 59,NW,History of Travel,Recovered
+14,Male,50 - 59,NW,No Known Exposure,Active
 15,Male,20 - 29,NW,No Known Exposure,Active
 16,Male,80+,NW,No Known Exposure,Deceased
 17,Male,30 - 39,NW,No Known Exposure,Recovered
-18,Male,50 - 59,NW,No Known Exposure,Active
-19,Male,30 - 39,SW,No Known Exposure,Active
-20,Female,20 - 29,SW,History of Travel,Active
+18,Male,30 - 39,SW,No Known Exposure,Active
+19,Female,20 - 29,SW,History of Travel,Active
+20,Female,40 - 49,SW,No Known Exposure,Active
 21,Female,30 - 39,NE,No Known Exposure,Active
-22,Female,40 - 49,SW,No Known Exposure,Active
-23,Female,60 - 69,NW,History of Travel,Active
-24,Male,50 - 59,NW,No Known Exposure,Recovered
-25,Male,40 - 49,NW,No Known Exposure,Recovered
+22,Female,60 - 69,NW,History of Travel,Active
+23,Male,50 - 59,NW,No Known Exposure,Recovered
+24,Male,40 - 49,NW,No Known Exposure,Recovered
+25,Female,40 - 49,NE,Possible Exposure to Case,Recovered
 26,Female,20 - 29,NW,No Known Exposure,Active
 27,Male,40 - 49,SE,Possible Exposure to Case,Active
-28,Female,40 - 49,NE,Possible Exposure to Case,Active
-29,Male,50 - 59,NE,Investigation Pending,Active
-30,Female,40 - 49,SE,History of Travel,Active
-31,Female,20 - 29,NW,No Known Exposure,Active
-32,Female,30 - 39,NW,No Known Exposure,Active
-33,Male,20 - 29,NW,Investigation Pending,Active
-34,Female,20 - 29,NW,No Known Exposure,Active
-35,Female,50 - 59,SE,Possible Exposure to Case,Active
-36,Male,50 - 59,NW,Possible Exposure to Case,Recovered
-37,Female,50 - 59,NE,Possible Exposure to Case,Active
-38,Female,50 - 59,NE,Possible Exposure to Case,Active
-39,Male,40 - 49,SW,No Known Exposure,Active
-40,Male,20 - 29,NW,History of Travel,Active
-41,Male,30 - 39,NW,Investigation Pending,Active
-42,Female,50 - 59,NE,Investigation Pending,Active
-43,Male,30 - 39,NW,Possible Exposure to Case,Active
-44,Male,20 - 29,NW,No Known Exposure,Active
-45,Female,20 - 29,NW,No Known Exposure,Active
-46,Male,0 - 9,NW,Possible Exposure to Case,Active
-47,Female,30 - 39,NW,Possible Exposure to Case,Active
-48,Female,0 - 9,NW,Possible Exposure to Case,Active
-49,Female,10 - 19,NW,Possible Exposure to Case,Active
-50,Male,50 - 59,NW,Possible Exposure to Case,Active
-51,Male,40 - 49,NW,Investigation Pending,Active
-52,Female,30 - 39,NW,No Known Exposure,Active
-53,Female,40 - 49,NE,Investigation Pending,Active
-54,Female,40 - 49,NW,No Known Exposure,Recovered
-55,Female,60 - 69,NW,No Known Exposure,Active
-56,Male,50 - 59,NW,History of Travel,Active
-57,Male,20 - 29,NW,Investigation Pending,Active
-58,Male,20 - 29,NW,Investigation Pending,Active
-59,Female,50 - 59,NW,Possible Exposure to Case,Active
-60,Male,60 - 69,NE,Investigation Pending,Active
-61,Male,40 - 49,SW,History of Travel,Recovered
-62,Female,30 - 39,NW,No Known Exposure,Active
-63,Male,30 - 39,NE,Investigation Pending,Active
+28,Male,50 - 59,NE,Investigation Pending,Active
+29,Female,40 - 49,SE,History of Travel,Active
+30,Female,20 - 29,NW,No Known Exposure,Active
+31,Female,30 - 39,NW,No Known Exposure,Active
+32,Male,20 - 29,NW,Investigation Pending,Active
+33,Female,20 - 29,NW,No Known Exposure,Active
+34,Female,50 - 59,SE,Possible Exposure to Case,Active
+35,Male,50 - 59,NW,Possible Exposure to Case,Recovered
+36,Female,50 - 59,NE,Possible Exposure to Case,Active
+37,Male,50 - 59,NW,History of Travel,Recovered
+38,Female,10 - 19,NW,Possible Exposure to Case,Active
+39,Female,50 - 59,NE,Possible Exposure to Case,Active
+40,Female,50 - 59,NE,Possible Exposure to Case,Active
+41,Male,30 - 39,NW,Possible Exposure to Case,Active
+42,Male,20 - 29,NW,No Known Exposure,Active
+43,Female,20 - 29,NW,No Known Exposure,Active
+44,Male,0 - 9,NW,Possible Exposure to Case,Active
+45,Female,30 - 39,NW,Possible Exposure to Case,Active
+46,Female,0 - 9,NW,Possible Exposure to Case,Active
+47,Male,40 - 49,SW,No Known Exposure,Active
+48,Male,20 - 29,NW,History of Travel,Active
+49,Male,30 - 39,NW,History of Travel,Active
+50,Male,40 - 49,SE,No Known Exposure,Active
+51,Male,50 - 59,NW,Possible Exposure to Case,Active
+52,Male,40 - 49,NW,Investigation Pending,Active
+53,Female,30 - 39,NW,No Known Exposure,Active
+54,Female,40 - 49,NE,Possible Exposure to Case,Recovered
+55,Female,40 - 49,NW,No Known Exposure,Recovered
+56,Female,60 - 69,NW,No Known Exposure,Active
+57,Male,50 - 59,NW,History of Travel,Active
+58,Male,20 - 29,NW,No Known Exposure,Recovered
+59,Male,60 - 69,NE,History of Travel,Active
+60,Male,20 - 29,NW,No Known Exposure,Active
+61,Female,50 - 59,NW,Possible Exposure to Case,Active
+62,Female,30 - 39,NW,No Known Exposure,Recovered
+63,Male,30 - 39,NE,No Known Exposure,Active
 64,Male,20 - 29,NW,Possible Exposure to Case,Active
-65,Male,50 - 59,NW,Investigation Pending,Active
-66,Male,20 - 29,SE,Investigation Pending,Active
-67,Male,20 - 29,SE,No Known Exposure,Active
-68,Male,70 - 79,NE,No Known Exposure,Active
-69,Female,50 - 59,NW,Investigation Pending,Active
-70,Female,30 - 39,NW,Investigation Pending,Active
-71,Female,40 - 49,SE,Investigation Pending,Active
-72,Male,50 - 59,SW,Investigation Pending,Active
-73,Male,60 - 69,SW,Investigation Pending,Active
-74,Male,20 - 29,NW,Investigation Pending,Active
-75,Female,50 - 59,NE,Investigation Pending,Active
-76,Female,30 - 39,NE,Investigation Pending,Active
-77,Male,50 - 59,NW,Investigation Pending,Active
-78,Female,40 - 49,NW,Investigation Pending,Active
-79,Male,20 - 29,NW,History of Travel,Active
-80,Male,40 - 49,NW,Investigation Pending,Active
-81,Male,50 - 59,NE,Investigation Pending,Active
-82,Female,20 - 29,NW,Investigation Pending,Active
-83,Female,30 - 39,NW,Investigation Pending,Active
-84,Female,30 - 39,NW,Investigation Pending,Active
-85,Male,40 - 49,NW,No Known Exposure,Active
-86,Female,70 - 79,NW,Investigation Pending,Active
-87,Female,60 - 69,NW,Investigation Pending,Active
-88,Male,20 - 29,NE,Investigation Pending,Active
-89,Female,30 - 39,NE,No Known Exposure,Active
-90,Female,30 - 39,NE,Investigation Pending,Active
-91,Male,40 - 49,NW,No Known Exposure,Active
-92,Female,70 - 79,NW,Investigation Pending,Active
-93,Female,40 - 49,NW,No Known Exposure,Active
-94,Male,20 - 29,NW,Investigation Pending,Active
-95,Male,50 - 59,NW,No Known Exposure,Active
-96,Male,60 - 69,SE,Investigation Pending,Active
-97,Male,50 - 59,NW,Investigation Pending,Active
-98,Female,50 - 59,NE,Investigation Pending,Active
-99,Male,40 - 49,NW,Investigation Pending,Active
-100,Male,30 - 39,NE,Investigation Pending,Active
-101,Male,60 - 69,NW,Investigation Pending,Active
-102,Male,40 - 49,NW,Investigation Pending,Active
-103,Female,40 - 49,NW,Investigation Pending,Active
-104,Female,20 - 29,NE,Investigation Pending,Active
-105,Male,30 - 39,NE,Investigation Pending,Active
-106,Male,40 - 49,NW,Investigation Pending,Active
-107,Female,20 - 29,NW,History of Travel,Active
-108,Female,30 - 39,NW,Investigation Pending,Active
-109,Female,60 - 69,NW,No Known Exposure,Active
-110,Male,60 - 69,NW,Investigation Pending,Active
-111,Female,50 - 59,NW,No Known Exposure,Active
-112,Male,70 - 79,SE,History of Travel,Active
-113,Female,40 - 49,NW,Investigation Pending,Active
-114,Female,50 - 59,SE,Investigation Pending,Active
-115,Female,70 - 79,NW,Investigation Pending,Active
-116,Female,50 - 59,NW,History of Travel,Active
-117,Female,80+,NE,Investigation Pending,Active
-118,Female,30 - 39,NW,Possible Exposure to Case,Active
-119,Female,30 - 39,SW,Investigation Pending,Active
-120,Female,60 - 69,SW,Investigation Pending,Active
-121,Female,50 - 59,NW,Investigation Pending,Active
-122,Male,40 - 49,NW,Investigation Pending,Active
-123,Female,50 - 59,SW,History of Travel,Active
-124,Female,20 - 29,NE,No Known Exposure,Active
-125,Female,50 - 59,SW,History of Travel,Active
+65,Male,50 - 59,NW,No Known Exposure,Active
+66,Female,40 - 49,SE,Investigation Pending,Active
+67,Female,50 - 59,NW,No Known Exposure,Active
+68,Female,30 - 39,NW,Possible Exposure to Case,Recovered
+69,Female,40 - 49,SE,No Known Exposure,Active
+70,Male,50 - 59,SW,History of Travel,Active
+71,Male,20 - 29,NW,No Known Exposure,Active
+72,Female,50 - 59,NE,No Known Exposure,Active
+73,Female,30 - 39,NE,No Known Exposure,Active
+74,Male,50 - 59,NW,Possible Exposure to Case,Active
+75,Female,40 - 49,NW,No Known Exposure,Active
+76,Male,20 - 29,NW,History of Travel,Active
+77,Male,20 - 29,SE,No Known Exposure,Active
+78,Male,40 - 49,SW,History of Travel,Recovered
+79,Male,70 - 79,NE,No Known Exposure,Active
+80,Male,10 - 19,SE,Possible Exposure to Case,Active
+81,Male,20 - 29,SE,Investigation Pending,Active
+82,Female,80+,NE,No Known Exposure,Active
+83,Female,50 - 59,SE,Investigation Pending,Active
+84,Male,40 - 49,NW,Possible Exposure to Case,Active
+85,Male,50 - 59,NE,History of Travel,Active
+86,Female,20 - 29,NW,Investigation Pending,Active
+87,Female,30 - 39,NW,History of Travel,Recovered
+88,Female,30 - 39,NW,Investigation Pending,Active
+89,Male,40 - 49,NW,No Known Exposure,Active
+90,Female,70 - 79,NW,No Known Exposure,Active
+91,Female,60 - 69,NW,Investigation Pending,Active
+92,Male,20 - 29,NE,Investigation Pending,Active
+93,Female,30 - 39,NE,No Known Exposure,Active
+94,Female,30 - 39,NE,History of Travel,Active
+95,Female,70 - 79,NW,Investigation Pending,Active
+96,Female,40 - 49,NW,No Known Exposure,Active
+97,Female,50 - 59,NW,History of Travel,Active
+98,Female,50 - 59,SE,History of Travel,Recovered
+99,Male,50 - 59,NW,No Known Exposure,Active
+100,Male,60 - 69,SE,Investigation Pending,Active
+101,Male,50 - 59,NW,History of Travel,Active
+102,Female,50 - 59,NE,Investigation Pending,Active
+103,Male,40 - 49,NW,History of Travel,Active
+104,Male,30 - 39,NE,Investigation Pending,Active
+105,Male,60 - 69,NW,Investigation Pending,Active
+106,Male,40 - 49,NW,No Known Exposure,Active
+107,Female,40 - 49,NW,Investigation Pending,Active
+108,Female,20 - 29,NE,History of Travel,Recovered
+109,Male,30 - 39,NE,No Known Exposure,Recovered
+110,Male,40 - 49,NW,History of Travel,Active
+111,Female,20 - 29,NW,History of Travel,Active
+112,Female,30 - 39,NW,No Known Exposure,Recovered
+113,Female,60 - 69,NW,No Known Exposure,Active
+114,Male,60 - 69,NW,No Known Exposure,Active
+115,Female,50 - 59,NW,No Known Exposure,Active
+116,Male,70 - 79,SE,History of Travel,Active
+117,Female,40 - 49,NW,Investigation Pending,Active
+118,Female,30 - 39,SW,Investigation Pending,Active
+119,Female,60 - 69,SW,Investigation Pending,Active
+120,Female,50 - 59,NW,Investigation Pending,Active
+121,Male,40 - 49,NW,No Known Exposure,Active
+122,Female,50 - 59,SW,History of Travel,Active
+123,Female,20 - 29,NE,No Known Exposure,Active
+124,Female,50 - 59,SW,History of Travel,Active
+125,Female,40 - 49,NW,No Known Exposure,Active
 126,Male,30 - 39,NW,Investigation Pending,Active
-127,Male,40 - 49,NW,Investigation Pending,Active
-128,Female,40 - 49,NW,Investigation Pending,Active
-129,Male,50 - 59,SW,Investigation Pending,Active
-130,Female,20 - 29,NW,History of Travel,Active
-131,Male,40 - 49,SW,No Known Exposure,Active
-132,Male,40 - 49,SE,Investigation Pending,Active
-133,Female,40 - 49,NW,No Known Exposure,Active
-134,Male,70 - 79,SW,Investigation Pending,Active
-135,Male,20 - 29,SW,Investigation Pending,Active
-136,Female,50 - 59,NW,Investigation Pending,Active
-137,Male,20 - 29,NW,No Known Exposure,Active
-138,Female,20 - 29,NE,Investigation Pending,Active
-139,Female,60 - 69,NE,Investigation Pending,Active
-140,Male,50 - 59,NE,Investigation Pending,Active
-141,Male,60 - 69,NW,Investigation Pending,Active
-142,Male,20 - 29,NE,Investigation Pending,Active
-143,Female,30 - 39,NW,Investigation Pending,Active
-144,Female,30 - 39,NE,Investigation Pending,Active
-145,Male,50 - 59,NE,Investigation Pending,Active
-146,Male,10 - 19s,SE,Possible Exposure to Case,Active
-147,Female,20 - 29,SE,Possible Exposure to Case,Active
-148,Female,80+,SE,Investigation Pending,Active
-149,Female,70 - 79,NW,Investigation Pending,Active
-150,Female,40 - 49,NE,Investigation Pending,Active
-151,Female,80+,NW,Investigation Pending,Active
-152,Male,20 - 29,SE,No Known Exposure,Active
-153,Female,30 - 39,NW,Investigation Pending,Active
-154,Male,30 - 39,NW,Investigation Pending,Active
-155,Male,40 - 49,NW,Investigation Pending,Active
-156,Female,60 - 69,NW,Investigation Pending,Active
-157,Male,40 - 49,NW,Investigation Pending,Active
-158,Female,40 - 49,NW,Investigation Pending,Active
-159,Male,50 - 59,NE,Investigation Pending,Active
-160,Female,20 - 29,NW,Investigation Pending,Active
+127,Male,40 - 49,NW,Possible Exposure to Case,Active
+128,Female,40 - 49,NW,No Known Exposure,Active
+129,Male,70 - 79,SW,Investigation Pending,Active
+130,Male,50 - 59,SW,Investigation Pending,Active
+131,Female,20 - 29,NW,History of Travel,Active
+132,Male,40 - 49,SW,No Known Exposure,Active
+133,Male,40 - 49,SE,Investigation Pending,Active
+134,Male,20 - 29,SW,Investigation Pending,Active
+135,Female,40 - 49,NW,No Known Exposure,Active
+136,Female,30 - 39,NW,Possible Exposure to Case,Active
+137,Male,30 - 39,NW,Investigation Pending,Active
+138,Female,50 - 59,NW,Investigation Pending,Active
+139,Male,20 - 29,NW,No Known Exposure,Active
+140,Female,20 - 29,NE,Possible Exposure to Case,Active
+141,Female,60 - 69,NE,Investigation Pending,Active
+142,Male,50 - 59,NE,No Known Exposure,Active
+143,Male,60 - 69,NW,Investigation Pending,Active
+144,Male,20 - 29,NE,History of Travel,Active
+145,Female,30 - 39,NW,Investigation Pending,Active
+146,Female,30 - 39,NE,Investigation Pending,Active
+147,Male,50 - 59,NE,History of Travel,Active
+148,Male,10 - 19,SE,Possible Exposure to Case,Active
+149,Female,20 - 29,SE,Possible Exposure to Case,Active
+150,Male,40 - 49,NW,Investigation Pending,Active
+151,Male,20 - 29,NE,Investigation Pending,Active
+152,Female,50 - 59,SE,Investigation Pending,Active
+153,Female,30 - 39,SE,Investigation Pending,Active
+154,Female,70 - 79,NW,No Known Exposure,Active
+155,Female,80+,SE,Investigation Pending,Active
+156,Female,20 - 29,SE,No Known Exposure,Active
+157,Female,70 - 79,NW,No Known Exposure,Active
+158,Female,40 - 49,NE,History of Travel,Active
+159,Female,80+,NW,History of Travel,Active
+160,Male,20 - 29,SE,No Known Exposure,Active
+161,Female,30 - 39,NW,Investigation Pending,Active
+162,Male,30 - 39,NW,Investigation Pending,Active
+163,Male,40 - 49,NW,Investigation Pending,Active
+164,Female,60 - 69,NW,History of Travel,Active
+165,Female,60 - 69,NW,No Known Exposure,Active
+166,Male,50 - 59,NE,No Known Exposure,Active
+167,Female,20 - 29,NW,Investigation Pending,Active
+168,Female,40 - 49,NW,Possible Exposure to Case,Active
+169,Male,40 - 49,SE,No Known Exposure,Active
+170,Male,10 - 19,NW,Possible Exposure to Case,Active
+171,Male,30 - 39,NW,Possible Exposure to Case,Active
+172,Male,60 - 69,NW,Investigation Pending,Active
+173,Female,0 - 9,NW,Possible Exposure to Case,Active
+174,Female,20 - 29,NW,Investigation Pending,Active
+175,Male,60 - 69,NW,Possible Exposure to Case,Active
+176,Male,20 - 29,SE,Possible Exposure to Case,Active
+177,Male,60 - 69,NW,Possible Exposure to Case,Active
+178,Female,20 - 29,NW,Possible Exposure to Case,Active
+179,Female,30 - 39,NE,History of Travel,Active
+180,Female,30 - 39,NW,Possible Exposure to Case,Active
+181,Male,60 - 69,SW,Investigation Pending,Active
+182,Male,70 - 79,NW,Investigation Pending,Active
+183,Female,40 - 49,NW,History of Travel,Active
+184,Male,50 - 59,SE,Investigation Pending,Active
+185,Female,60 - 69,SW,Investigation Pending,Active
+186,Female,0 - 9,SE,Possible Exposure to Case,Active
+187,Male,30 - 39,NW,No Known Exposure,Active
+188,Female,50 - 59,NW,No Known Exposure,Active
+189,Female,50 - 59,SE,History of Travel,Active
+190,Female,60 - 69,SE,Investigation Pending,Active
+191,Female,40 - 49,NW,Investigation Pending,Active
+192,Male,50 - 59,NW,No Known Exposure,Active
+193,Female,10 - 19,SE,Possible Exposure to Case,Active
+194,Female,80+,SE,Investigation Pending,Active
+195,Female,60 - 69,SW,No Known Exposure,Active
+196,Male,20 - 29,NW,Investigation Pending,Active
+197,Male,20 - 29,NW,No Known Exposure,Active
+198,Female,20 - 29,NW,Investigation Pending,Active
+199,Female,70 - 79,NW,History of Travel,Active
+200,Female,40 - 49,NW,Investigation Pending,Active
+201,Male,30 - 39,NE,Investigation Pending,Active
+202,Male,40 - 49,NE,Investigation Pending,Active
+203,Male,50 - 59,NW,Investigation Pending,Active
+204,Female,30 - 39,NW,Investigation Pending,Active
+205,Male,80+,SE,Investigation Pending,Active
+206,Male,20 - 29,NE,Investigation Pending,Active
+207,Female,50 - 59,NW,Investigation Pending,Active
+208,Male,40 - 49,NE,Investigation Pending,Active
+209,Male,30 - 39,NW,Investigation Pending,Active
+210,Male,50 - 59,NW,Investigation Pending,Active
+211,Male,50 - 59,NE,Investigation Pending,Active
+212,Female,50 - 59,NE,Investigation Pending,Active
+213,Female,40 - 49,NW,No Known Exposure,Active
