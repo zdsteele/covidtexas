@@ -3,21 +3,16 @@ API_KEY = 'pk.eyJ1IjoiemRzdGVlbGUiLCJhIjoiY2sycnJsejJyMGJsajNtbnhqNWdhMXk3bCJ9.i
 $.getJSON("/static/js/map.json", function(data) {
 
     // Function to determine marker size based on population
-    function markerSize(cases) {
-        return (cases / 5);
-    }
 
     function onEachFeature(feature, layer) {
         // does this feature have a property named popupContent?
         layer.bindPopup("<h4>" + feature.properties.County +
             "</h3><hr><p>" + feature.properties.Positive + "</p>");
-
     }
 
     var locations = data.features
-
-    // Define arrays to hold created city and state markers
-    // var cityMarkers = [];
+        // Define arrays to hold created city and state markers
+        // var cityMarkers = [];
     var countyMarkers = [];
 
     // Loop through locations and create city and state markers

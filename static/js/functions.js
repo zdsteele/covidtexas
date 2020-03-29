@@ -29,3 +29,16 @@ function fillColor(magnitude) {
         return 'purple'
     }
 };
+
+function markerSize(cases) {
+
+    if (cases >= 50) {
+        return (cases / 7)
+    } else if (cases >= 20 && cases < 50) {
+        return (cases / 5)
+    } else if (cases >= 5 && cases < 20) {
+        return (cases / 2)
+    } else {
+        return (cases * 5)
+    }
+};
