@@ -64,22 +64,22 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
 
     var config = { responsive: true }
 
-    var pie_data = [{
-        values: [female, male],
-        labels: ['Female', 'Male'],
-        textinfo: "label+percent",
-        type: 'pie'
-    }];
+    // var pie_data = [{
+    //     values: [female, male],
+    //     labels: ['Female', 'Male'],
+    //     textinfo: "label+percent",
+    //     type: 'pie'
+    // }];
 
-    var pie_layout = {
-        title: 'Gender',
-        // height: 500,
-        // width: 500,
-        // margin: { "t": 50, "b": 0, "l": 0, "r": 0 },
-        showlegend: false
-    };
+    // var pie_layout = {
+    //     title: 'Gender',
+    //     // height: 500,
+    //     // width: 500,
+    //     // margin: { "t": 50, "b": 0, "l": 0, "r": 0 },
+    //     showlegend: false
+    // };
 
-    Plotly.newPlot('pie', pie_data, pie_layout, config)
+    // Plotly.newPlot('pie', pie_data, pie_layout, config)
 
 
     // Counting the number of cases for each age range
@@ -97,16 +97,22 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
     var age_ranges_plot_counts = Object.values(age_range_counts);
 
     var pie_data_2 = [{
-        values: age_ranges_plot_counts,
-        labels: age_ranges_plot,
+        y: age_ranges_plot_counts,
+        x: age_ranges_plot,
         textinfo: "label+percent",
-        type: 'pie'
+        type: 'bar'
     }];
 
     var pie_layout_2 = {
-        title: 'Age Range',
-        // height: 500,
-        // width: 500,
+        title: 'Age Categories Most Affected by COVID-19',
+        xaxis: {
+            title: 'Age Range (Years)'
+        },
+        yaxis: {
+            title: 'Number of Individuals with the Virus'
+        },
+        height: 600,
+        width: 900,
         // margin: { "r": 50 },
         showlegend: false
     };
