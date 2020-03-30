@@ -5,8 +5,8 @@
             "type": "Feature",
             "properties": {
                 "County": "Harris",
-                "Positive": 445,
-                "Fatalities": 3
+                "Positive": 526,
+                "Fatalities": 4
             },
             "geometry": {
                 "type": "Point",
@@ -20,8 +20,8 @@
             "type": "Feature",
             "properties": {
                 "County": "Dallas",
-                "Positive": 439,
-                "Fatalities": 9
+                "Positive": 488,
+                "Fatalities": 10
             },
             "geometry": {
                 "type": "Point",
@@ -35,7 +35,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Travis",
-                "Positive": 179,
+                "Positive": 200,
                 "Fatalities": 1
             },
             "geometry": {
@@ -50,7 +50,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Denton",
-                "Positive": 148,
+                "Positive": 165,
                 "Fatalities": 2
             },
             "geometry": {
@@ -65,7 +65,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Bexar",
-                "Positive": 140,
+                "Positive": 157,
                 "Fatalities": 5
             },
             "geometry": {
@@ -95,7 +95,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Collin",
-                "Positive": 128,
+                "Positive": 134,
                 "Fatalities": 1
             },
             "geometry": {
@@ -110,7 +110,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Fort Bend",
-                "Positive": 101,
+                "Positive": 119,
                 "Fatalities": 1
             },
             "geometry": {
@@ -124,8 +124,23 @@
         {
             "type": "Feature",
             "properties": {
+                "County": "Galveston",
+                "Positive": 70,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.39424415,
+                    -94.96474975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "County": "Montgomery",
-                "Positive": 64,
+                "Positive": 66,
                 "Fatalities": 0
             },
             "geometry": {
@@ -154,23 +169,8 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Galveston",
-                "Positive": 49,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.39424415,
-                    -94.96474975
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "County": "Lubbock",
-                "Positive": 41,
+                "Positive": 51,
                 "Fatalities": 0
             },
             "geometry": {
@@ -185,14 +185,29 @@
             "type": "Feature",
             "properties": {
                 "County": "Brazos",
-                "Positive": 40,
-                "Fatalities": 1
+                "Positive": 44,
+                "Fatalities": 2
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     30.6610425,
                     -96.3022943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "El Paso",
+                "Positive": 40,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.768622600000004,
+                    -106.23522290000001
                 ]
             }
         },
@@ -229,23 +244,8 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "El Paso",
-                "Positive": 35,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    31.768622600000004,
-                    -106.23522290000001
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "County": "Smith",
-                "Positive": 30,
+                "Positive": 32,
                 "Fatalities": 1
             },
             "geometry": {
@@ -253,6 +253,21 @@
                 "coordinates": [
                     32.37514553,
                     -95.26909511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Webb",
+                "Positive": 32,
+                "Fatalities": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.76102524,
+                    -99.33170164
                 ]
             }
         },
@@ -275,7 +290,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Hidalgo",
-                "Positive": 27,
+                "Positive": 28,
                 "Fatalities": 0
             },
             "geometry": {
@@ -290,7 +305,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Wichita",
-                "Positive": 26,
+                "Positive": 28,
                 "Fatalities": 0
             },
             "geometry": {
@@ -304,23 +319,8 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Webb",
-                "Positive": 25,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.76102524,
-                    -99.33170164
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "County": "Nueces",
-                "Positive": 21,
+                "Positive": 22,
                 "Fatalities": 0
             },
             "geometry": {
@@ -350,7 +350,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Jefferson",
-                "Positive": 16,
+                "Positive": 18,
                 "Fatalities": 0
             },
             "geometry": {
@@ -365,7 +365,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Hays",
-                "Positive": 13,
+                "Positive": 16,
                 "Fatalities": 0
             },
             "geometry": {
@@ -380,7 +380,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Ellis",
-                "Positive": 13,
+                "Positive": 15,
                 "Fatalities": 0
             },
             "geometry": {
@@ -394,8 +394,23 @@
         {
             "type": "Feature",
             "properties": {
+                "County": "Guadalupe",
+                "Positive": 13,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.58257236,
+                    -97.94850308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "County": "Matagorda",
-                "Positive": 12,
+                "Positive": 13,
                 "Fatalities": 1
             },
             "geometry": {
@@ -410,7 +425,7 @@
             "type": "Feature",
             "properties": {
                 "County": "Midland",
-                "Positive": 11,
+                "Positive": 13,
                 "Fatalities": 1
             },
             "geometry": {
@@ -418,36 +433,6 @@
                 "coordinates": [
                     31.86921148,
                     -102.0315032
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Guadalupe",
-                "Positive": 10,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.58257236,
-                    -97.94850308
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Hardin",
-                "Positive": 9,
-                "Fatalities": 1
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.33238431,
-                    -94.39021394
                 ]
             }
         },
@@ -469,15 +454,15 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Johnson",
-                "Positive": 8,
+                "County": "Hardin",
+                "Positive": 9,
                 "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.37899918,
-                    -97.36660504
+                    30.33238431,
+                    -94.39021394
                 ]
             }
         },
@@ -499,30 +484,30 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Hockley",
-                "Positive": 7,
-                "Fatalities": 0
+                "County": "Johnson",
+                "Positive": 8,
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    33.60750375,
-                    -102.3430919
+                    32.37899918,
+                    -97.36660504
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Taylor",
-                "Positive": 7,
+                "County": "Washington",
+                "Positive": 8,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.30138229,
-                    -99.89003941
+                    30.2145299,
+                    -96.40356575000001
                 ]
             }
         },
@@ -544,6 +529,66 @@
         {
             "type": "Feature",
             "properties": {
+                "County": "Taylor",
+                "Positive": 7,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.30138229,
+                    -99.89003941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Hockley",
+                "Positive": 7,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.60750375,
+                    -102.3430919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Bastrop",
+                "Positive": 6,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.10353518,
+                    -97.31187705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Randall",
+                "Positive": 6,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.96594288,
+                    -101.8968527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "County": "Wharton",
                 "Positive": 6,
                 "Fatalities": 0
@@ -553,6 +598,51 @@
                 "coordinates": [
                     29.2778362,
                     -96.22197375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Victoria",
+                "Positive": 6,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.79640594,
+                    -96.97176602
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Grayson",
+                "Positive": 6,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.62684371,
+                    -96.67764864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Chambers",
+                "Positive": 5,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.73912276,
+                    -94.60891308
                 ]
             }
         },
@@ -574,38 +664,8 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Washington",
-                "Positive": 5,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.2145299,
-                    -96.40356575000001
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Bastrop",
-                "Positive": 5,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.10353518,
-                    -97.31187705
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "County": "Potter",
-                "Positive": 4,
+                "Positive": 5,
                 "Fatalities": 0
             },
             "geometry": {
@@ -613,6 +673,51 @@
                 "coordinates": [
                     35.40128927,
                     -101.8940484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Gregg",
+                "Positive": 5,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.48036452,
+                    -94.81723694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Orange",
+                "Positive": 5,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.12807126,
+                    -93.89653794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Tom Green",
+                "Positive": 5,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.404444199999997,
+                    -100.4620678
                 ]
             }
         },
@@ -634,15 +739,15 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Gregg",
+                "County": "Bowie",
                 "Positive": 4,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.48036452,
-                    -94.81723694
+                    33.44572786,
+                    -94.42324298
                 ]
             }
         },
@@ -664,6 +769,21 @@
         {
             "type": "Feature",
             "properties": {
+                "County": "Llano",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.70566579,
+                    -98.68387398
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "County": "Lamar",
                 "Positive": 3,
                 "Fatalities": 0
@@ -673,36 +793,6 @@
                 "coordinates": [
                     33.66746186,
                     -95.57110784
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Medina",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.35520493,
-                    -99.11008331
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Randall",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    34.96594288,
-                    -101.8968527
                 ]
             }
         },
@@ -724,165 +814,30 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Rusk",
+                "County": "Medina",
                 "Positive": 3,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.10803224,
-                    -94.76169577
+                    29.35520493,
+                    -99.11008331
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Walker",
+                "County": "Navarro",
                 "Positive": 3,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    30.73899492,
-                    -95.57224172
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Bowie",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    33.44572786,
-                    -94.42324298
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Brown",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    31.77432313,
-                    -98.99989649
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Calhoun",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.48966896,
-                    -96.64708119
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Chambers",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.73912276,
-                    -94.60891308
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Waller",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.01093722,
-                    -95.98768942
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Grayson",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    33.62684371,
-                    -96.67764864
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Tom Green",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    31.404444199999997,
-                    -100.4620678
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Victoria",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.79640594,
-                    -96.97176602
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Eastland",
-                "Positive": 3,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.32739258,
-                    -98.8325713
+                    32.04695429,
+                    -96.47248134
                 ]
             }
         },
@@ -904,30 +859,150 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Uvalde",
-                "Positive": 2,
+                "County": "Walker",
+                "Positive": 3,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    29.35669829,
-                    -99.76203107
+                    30.73899492,
+                    -95.57224172
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Nacogdoches",
-                "Positive": 2,
+                "County": "Waller",
+                "Positive": 3,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    31.61604108,
-                    -94.6158776
+                    30.01093722,
+                    -95.98768942
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Rusk",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.10803224,
+                    -94.76169577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Kaufman",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.59927808,
+                    -96.28779341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Ector",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.86908156,
+                    -102.5430907
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Hood",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.43107878,
+                    -97.83280338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Brown",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.77432313,
+                    -98.99989649
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Hunt",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.123531,
+                    -96.08550014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Calhoun",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.48966896,
+                    -96.64708119
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Eastland",
+                "Positive": 3,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.32739258,
+                    -98.8325713
                 ]
             }
         },
@@ -949,30 +1024,30 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Willacy",
+                "County": "Aransas",
                 "Positive": 2,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    26.47132899,
-                    -97.64303323
+                    28.12709562,
+                    -96.99258951
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Milam",
+                "County": "Fayette",
                 "Positive": 2,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    30.78625299,
-                    -96.97683495
+                    29.87683207,
+                    -96.91968047
                 ]
             }
         },
@@ -994,165 +1069,30 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Wilson",
+                "County": "Upshur",
                 "Positive": 2,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    29.17315896,
-                    -98.08621015000001
+                    32.7362827,
+                    -94.94132011
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Oldham",
-                "Positive": 2,
-                "Fatalities": 1
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    35.40497586,
-                    -102.6029949
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Kaufman",
+                "County": "Nacogdoches",
                 "Positive": 2,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.59927808,
-                    -96.28779341
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Karnes",
-                "Positive": 2,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.90493782,
-                    -97.85960621
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Austin",
-                "Positive": 2,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.88711223,
-                    -96.27791829
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Llano",
-                "Positive": 2,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.70566579,
-                    -98.68387398
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Grimes",
-                "Positive": 2,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.54360689,
-                    -95.98557334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Liberty",
-                "Positive": 2,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.15153187,
-                    -94.8120925
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Cass",
-                "Positive": 2,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    33.07750446,
-                    -94.34348771
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Atascosa",
-                "Positive": 2,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.89418432,
-                    -98.52741302
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Hood",
-                "Positive": 2,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.43107878,
-                    -97.83280338
+                    31.61604108,
+                    -94.6158776
                 ]
             }
         },
@@ -1174,8 +1114,203 @@
         {
             "type": "Feature",
             "properties": {
+                "County": "Shelby",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.79242191,
+                    -94.14495261
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Uvalde",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.35669829,
+                    -99.76203107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Cass",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.07750446,
+                    -94.34348771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Grimes",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.54360689,
+                    -95.98557334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Oldham",
+                "Positive": 2,
+                "Fatalities": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.40497586,
+                    -102.6029949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Karnes",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.90493782,
+                    -97.85960621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Milam",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.78625299,
+                    -96.97683495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Limestone",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.54541898,
+                    -96.58056718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Wilson",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.17315896,
+                    -98.08621015000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Atascosa",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.89418432,
+                    -98.52741302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Willacy",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.47132899,
+                    -97.64303323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Austin",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.88711223,
+                    -96.27791829
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Liberty",
+                "Positive": 2,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.15153187,
+                    -94.8120925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "County": "Van Zandt",
-                "Positive": 1,
+                "Positive": 2,
                 "Fatalities": 1
             },
             "geometry": {
@@ -1189,165 +1324,45 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Fayette",
-                "Positive": 1,
+                "County": "Hopkins",
+                "Positive": 2,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    29.87683207,
-                    -96.91968047
+                    33.14933822,
+                    -95.56414173
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Fannin",
-                "Positive": 1,
+                "County": "Lynn",
+                "Positive": 2,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    33.59396919,
-                    -96.10656755
+                    33.17685487,
+                    -101.8160235
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Falls",
-                "Positive": 1,
+                "County": "Burnet",
+                "Positive": 2,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    31.25317017,
-                    -96.93579511
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Erath",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.23640361,
-                    -98.21722756
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Upshur",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.7362827,
-                    -94.94132011
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Ector",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    31.86908156,
-                    -102.5430907
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Martin",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.30605847,
-                    -101.9512464
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Dawson",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.74258137,
-                    -101.9476136
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Crane",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    31.42846287,
-                    -102.5156425
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Swisher",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    34.53064989,
-                    -101.734951
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Coryell",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    31.39087578,
-                    -97.7991883
+                    30.78843382,
+                    -98.18252382
                 ]
             }
         },
@@ -1369,6 +1384,21 @@
         {
             "type": "Feature",
             "properties": {
+                "County": "Coryell",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.39087578,
+                    -97.7991883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "County": "Caldwell",
                 "Positive": 1,
                 "Fatalities": 0
@@ -1378,36 +1408,6 @@
                 "coordinates": [
                     29.83677935,
                     -97.61983479000001
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Burnet",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.78843382,
-                    -98.18252382
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Burleson",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.49246139,
-                    -96.62109399
                 ]
             }
         },
@@ -1429,150 +1429,135 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Franklin",
+                "County": "Dawson",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    33.17550691,
-                    -95.21841437
+                    32.74258137,
+                    -101.9476136
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Shelby",
+                "County": "Burleson",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    31.79242191,
-                    -94.14495261
+                    30.49246139,
+                    -96.62109399
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Gaines",
+                "County": "Swisher",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.74074537,
-                    -102.6351246
+                    34.53064989,
+                    -101.734951
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Lynn",
+                "County": "Wise",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    33.17685487,
-                    -101.8160235
+                    33.21585061,
+                    -97.65444124
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Maverick",
+                "County": "Crane",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.74260943,
-                    -100.3144638
+                    31.42846287,
+                    -102.5156425
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Limestone",
+                "County": "Falls",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    31.54541898,
-                    -96.58056718
+                    31.25317017,
+                    -96.93579511
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Lavaca",
+                "County": "San Patricio",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    29.38437003,
-                    -96.93020993
+                    28.00922186,
+                    -97.51859857
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Montague",
+                "County": "San Jacinto",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    33.67496328,
-                    -97.72466993
+                    30.57948905,
+                    -95.16683273
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Lamb",
+                "County": "Jim Wells",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    34.06861242,
-                    -102.3517095
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Morris",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    33.11368507,
-                    -94.73205137
+                    27.73131099,
+                    -98.0898649
                 ]
             }
         },
@@ -1594,36 +1579,6 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Navarro",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.04695429,
-                    -96.47248134
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "County": "Orange",
-                "Positive": 1,
-                "Fatalities": 0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.12807126,
-                    -93.89653794
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "County": "Jackson",
                 "Positive": 1,
                 "Fatalities": 0
@@ -1639,45 +1594,90 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "Polk",
+                "County": "Lamb",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    30.79250963,
-                    -94.82994949
+                    34.06861242,
+                    -102.3517095
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Hunt",
+                "County": "Lavaca",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    33.123531,
-                    -96.08550014
+                    29.38437003,
+                    -96.93020993
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "Hopkins",
+                "County": "Leon",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    33.14933822,
-                    -95.56414173
+                    31.29655719,
+                    -95.99554292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Martin",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.30605847,
+                    -101.9512464
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Maverick",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.74260943,
+                    -100.3144638
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Hill",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.99079033,
+                    -97.13241420000001
                 ]
             }
         },
@@ -1714,30 +1714,120 @@
         {
             "type": "Feature",
             "properties": {
-                "County": "San Jacinto",
+                "County": "Montague",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    30.57948905,
-                    -95.16683273
+                    33.67496328,
+                    -97.72466993
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "County": "San Patricio",
+                "County": "Moore",
                 "Positive": 1,
                 "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.00922186,
-                    -97.51859857
+                    35.83768863,
+                    -101.8929556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Morris",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.11368507,
+                    -94.73205137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Gaines",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.74074537,
+                    -102.6351246
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Franklin",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.17550691,
+                    -95.21841437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Fannin",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.59396919,
+                    -96.10656755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Polk",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.79250963,
+                    -94.82994949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Erath",
+                "Positive": 1,
+                "Fatalities": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.23640361,
+                    -98.21722756
                 ]
             }
         },
