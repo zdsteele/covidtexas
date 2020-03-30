@@ -6,7 +6,7 @@
             "properties": {
                 "County": "Harris",
                 "Positive": 445,
-                "Deaths": 3
+                "Fatalities": 3
             },
             "geometry": {
                 "type": "Point",
@@ -21,7 +21,7 @@
             "properties": {
                 "County": "Dallas",
                 "Positive": 439,
-                "Deaths": 9
+                "Fatalities": 9
             },
             "geometry": {
                 "type": "Point",
@@ -36,7 +36,7 @@
             "properties": {
                 "County": "Travis",
                 "Positive": 179,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -51,7 +51,7 @@
             "properties": {
                 "County": "Denton",
                 "Positive": 148,
-                "Deaths": 2
+                "Fatalities": 2
             },
             "geometry": {
                 "type": "Point",
@@ -66,7 +66,7 @@
             "properties": {
                 "County": "Bexar",
                 "Positive": 140,
-                "Deaths": 5
+                "Fatalities": 5
             },
             "geometry": {
                 "type": "Point",
@@ -81,7 +81,7 @@
             "properties": {
                 "County": "Tarrant",
                 "Positive": 139,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -96,7 +96,7 @@
             "properties": {
                 "County": "Collin",
                 "Positive": 128,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -111,7 +111,7 @@
             "properties": {
                 "County": "Fort Bend",
                 "Positive": 101,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -126,7 +126,7 @@
             "properties": {
                 "County": "Montgomery",
                 "Positive": 64,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -141,7 +141,7 @@
             "properties": {
                 "County": "Brazoria",
                 "Positive": 61,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -156,7 +156,7 @@
             "properties": {
                 "County": "Galveston",
                 "Positive": 49,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -171,7 +171,7 @@
             "properties": {
                 "County": "Lubbock",
                 "Positive": 41,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -186,7 +186,7 @@
             "properties": {
                 "County": "Brazos",
                 "Positive": 40,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -201,7 +201,7 @@
             "properties": {
                 "County": "Williamson",
                 "Positive": 37,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -216,7 +216,7 @@
             "properties": {
                 "County": "McLennan",
                 "Positive": 36,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -231,7 +231,7 @@
             "properties": {
                 "County": "El Paso",
                 "Positive": 35,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -246,7 +246,7 @@
             "properties": {
                 "County": "Smith",
                 "Positive": 30,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -261,7 +261,7 @@
             "properties": {
                 "County": "Bell",
                 "Positive": 28,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -276,7 +276,7 @@
             "properties": {
                 "County": "Hidalgo",
                 "Positive": 27,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -291,7 +291,7 @@
             "properties": {
                 "County": "Wichita",
                 "Positive": 26,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -306,7 +306,7 @@
             "properties": {
                 "County": "Webb",
                 "Positive": 25,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -321,7 +321,7 @@
             "properties": {
                 "County": "Nueces",
                 "Positive": 21,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -336,7 +336,7 @@
             "properties": {
                 "County": "Cameron",
                 "Positive": 20,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -351,7 +351,7 @@
             "properties": {
                 "County": "Jefferson",
                 "Positive": 16,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -366,7 +366,7 @@
             "properties": {
                 "County": "Hays",
                 "Positive": 13,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -381,7 +381,7 @@
             "properties": {
                 "County": "Ellis",
                 "Positive": 13,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -396,7 +396,7 @@
             "properties": {
                 "County": "Matagorda",
                 "Positive": 12,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -411,7 +411,7 @@
             "properties": {
                 "County": "Midland",
                 "Positive": 11,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -426,7 +426,7 @@
             "properties": {
                 "County": "Guadalupe",
                 "Positive": 10,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -441,7 +441,7 @@
             "properties": {
                 "County": "Hardin",
                 "Positive": 9,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -456,7 +456,7 @@
             "properties": {
                 "County": "Comal",
                 "Positive": 9,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -471,7 +471,7 @@
             "properties": {
                 "County": "Johnson",
                 "Positive": 8,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -486,7 +486,7 @@
             "properties": {
                 "County": "Castro",
                 "Positive": 8,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -501,7 +501,7 @@
             "properties": {
                 "County": "Hockley",
                 "Positive": 7,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -516,7 +516,7 @@
             "properties": {
                 "County": "Taylor",
                 "Positive": 7,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -531,7 +531,7 @@
             "properties": {
                 "County": "Kendall",
                 "Positive": 7,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -546,7 +546,7 @@
             "properties": {
                 "County": "Wharton",
                 "Positive": 6,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -561,7 +561,7 @@
             "properties": {
                 "County": "Val Verde",
                 "Positive": 5,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -576,7 +576,7 @@
             "properties": {
                 "County": "Washington",
                 "Positive": 5,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -591,7 +591,7 @@
             "properties": {
                 "County": "Bastrop",
                 "Positive": 5,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -606,7 +606,7 @@
             "properties": {
                 "County": "Potter",
                 "Positive": 4,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -621,7 +621,7 @@
             "properties": {
                 "County": "Parker",
                 "Positive": 4,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -636,7 +636,7 @@
             "properties": {
                 "County": "Gregg",
                 "Positive": 4,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -651,7 +651,7 @@
             "properties": {
                 "County": "Rockwall",
                 "Positive": 4,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -666,7 +666,7 @@
             "properties": {
                 "County": "Lamar",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -681,7 +681,7 @@
             "properties": {
                 "County": "Medina",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -696,7 +696,7 @@
             "properties": {
                 "County": "Randall",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -711,7 +711,7 @@
             "properties": {
                 "County": "Angelina",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -726,7 +726,7 @@
             "properties": {
                 "County": "Rusk",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -741,7 +741,7 @@
             "properties": {
                 "County": "Walker",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -756,7 +756,7 @@
             "properties": {
                 "County": "Bowie",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -771,7 +771,7 @@
             "properties": {
                 "County": "Brown",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -786,7 +786,7 @@
             "properties": {
                 "County": "Calhoun",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -801,7 +801,7 @@
             "properties": {
                 "County": "Chambers",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -816,7 +816,7 @@
             "properties": {
                 "County": "Waller",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -831,7 +831,7 @@
             "properties": {
                 "County": "Grayson",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -846,7 +846,7 @@
             "properties": {
                 "County": "Tom Green",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -861,7 +861,7 @@
             "properties": {
                 "County": "Victoria",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -876,7 +876,7 @@
             "properties": {
                 "County": "Eastland",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -891,7 +891,7 @@
             "properties": {
                 "County": "Terry",
                 "Positive": 3,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -906,7 +906,7 @@
             "properties": {
                 "County": "Uvalde",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -921,7 +921,7 @@
             "properties": {
                 "County": "Nacogdoches",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -936,7 +936,7 @@
             "properties": {
                 "County": "Robertson",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -951,7 +951,7 @@
             "properties": {
                 "County": "Willacy",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -966,7 +966,7 @@
             "properties": {
                 "County": "Milam",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -981,7 +981,7 @@
             "properties": {
                 "County": "Starr",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -996,7 +996,7 @@
             "properties": {
                 "County": "Wilson",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1011,7 +1011,7 @@
             "properties": {
                 "County": "Oldham",
                 "Positive": 2,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -1026,7 +1026,7 @@
             "properties": {
                 "County": "Kaufman",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1041,7 +1041,7 @@
             "properties": {
                 "County": "Karnes",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1056,7 +1056,7 @@
             "properties": {
                 "County": "Austin",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1071,7 +1071,7 @@
             "properties": {
                 "County": "Llano",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1086,7 +1086,7 @@
             "properties": {
                 "County": "Grimes",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1101,7 +1101,7 @@
             "properties": {
                 "County": "Liberty",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1116,7 +1116,7 @@
             "properties": {
                 "County": "Cass",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1131,7 +1131,7 @@
             "properties": {
                 "County": "Atascosa",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1146,7 +1146,7 @@
             "properties": {
                 "County": "Hood",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1161,7 +1161,7 @@
             "properties": {
                 "County": "Deaf Smith",
                 "Positive": 2,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1176,7 +1176,7 @@
             "properties": {
                 "County": "Van Zandt",
                 "Positive": 1,
-                "Deaths": 1
+                "Fatalities": 1
             },
             "geometry": {
                 "type": "Point",
@@ -1191,7 +1191,7 @@
             "properties": {
                 "County": "Fayette",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1206,7 +1206,7 @@
             "properties": {
                 "County": "Fannin",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1221,7 +1221,7 @@
             "properties": {
                 "County": "Falls",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1236,7 +1236,7 @@
             "properties": {
                 "County": "Erath",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1251,7 +1251,7 @@
             "properties": {
                 "County": "Upshur",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1266,7 +1266,7 @@
             "properties": {
                 "County": "Ector",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1281,7 +1281,7 @@
             "properties": {
                 "County": "Martin",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1296,7 +1296,7 @@
             "properties": {
                 "County": "Dawson",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1311,7 +1311,7 @@
             "properties": {
                 "County": "Crane",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1326,7 +1326,7 @@
             "properties": {
                 "County": "Swisher",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1341,7 +1341,7 @@
             "properties": {
                 "County": "Coryell",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1356,7 +1356,7 @@
             "properties": {
                 "County": "Cherokee",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1371,7 +1371,7 @@
             "properties": {
                 "County": "Caldwell",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1386,7 +1386,7 @@
             "properties": {
                 "County": "Burnet",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1401,7 +1401,7 @@
             "properties": {
                 "County": "Burleson",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1416,7 +1416,7 @@
             "properties": {
                 "County": "Blanco",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1431,7 +1431,7 @@
             "properties": {
                 "County": "Franklin",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1446,7 +1446,7 @@
             "properties": {
                 "County": "Shelby",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1461,7 +1461,7 @@
             "properties": {
                 "County": "Gaines",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1476,7 +1476,7 @@
             "properties": {
                 "County": "Lynn",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1491,7 +1491,7 @@
             "properties": {
                 "County": "Maverick",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1506,7 +1506,7 @@
             "properties": {
                 "County": "Limestone",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1521,7 +1521,7 @@
             "properties": {
                 "County": "Lavaca",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1536,7 +1536,7 @@
             "properties": {
                 "County": "Montague",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1551,7 +1551,7 @@
             "properties": {
                 "County": "Lamb",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1566,7 +1566,7 @@
             "properties": {
                 "County": "Morris",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1581,7 +1581,7 @@
             "properties": {
                 "County": "Kleberg",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1596,7 +1596,7 @@
             "properties": {
                 "County": "Navarro",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1611,7 +1611,7 @@
             "properties": {
                 "County": "Orange",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1626,7 +1626,7 @@
             "properties": {
                 "County": "Jackson",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1641,7 +1641,7 @@
             "properties": {
                 "County": "Polk",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1656,7 +1656,7 @@
             "properties": {
                 "County": "Hunt",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1671,7 +1671,7 @@
             "properties": {
                 "County": "Hopkins",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1686,7 +1686,7 @@
             "properties": {
                 "County": "Harrison",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1701,7 +1701,7 @@
             "properties": {
                 "County": "Hale",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1716,7 +1716,7 @@
             "properties": {
                 "County": "San Jacinto",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1731,7 +1731,7 @@
             "properties": {
                 "County": "San Patricio",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1746,7 +1746,7 @@
             "properties": {
                 "County": "Young",
                 "Positive": 1,
-                "Deaths": 0
+                "Fatalities": 0
             },
             "geometry": {
                 "type": "Point",

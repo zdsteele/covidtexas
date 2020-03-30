@@ -27,7 +27,7 @@ $.getJSON("/static/js/map.json", function(data) {
                 fillColor: "red",
                 radius: markerSize(locations[i].properties.Positive)
             }).bindPopup("<h4>" + locations[i].properties.County +
-                "</h3><hr><p>" + "Cases: " + locations[i].properties.Positive + "</p>" + "<p>" + "Deaths: " + locations[i].properties.Deaths + "</p>")
+                "</h3><hr><p>" + "Cases: " + locations[i].properties.Positive + "</p>" + "<p>" + "Deaths: " + locations[i].properties.Fatalities + "</p>")
 
         );
         // Setting the marker radius for the city by passing population into the markerSize function
