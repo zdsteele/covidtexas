@@ -724,6 +724,21 @@
         {
             "type": "Feature",
             "properties": {
+                "County": "Rusk",
+                "Positive": 3,
+                "Deaths": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.10803224,
+                    -94.76169577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "County": "Walker",
                 "Positive": 3,
                 "Deaths": 0
@@ -1138,6 +1153,21 @@
                 "coordinates": [
                     32.43107878,
                     -97.83280338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "Deaf Smith",
+                "Positive": 2,
+                "Deaths": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.96602014,
+                    -102.6048162
                 ]
             }
         },
@@ -1693,6 +1723,21 @@
                 "coordinates": [
                     30.57948905,
                     -95.16683273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "County": "San Patricio",
+                "Positive": 1,
+                "Deaths": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.00922186,
+                    -97.51859857
                 ]
             }
         },
