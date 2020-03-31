@@ -121,12 +121,10 @@ d3.csv("/static/csv/harris_stats.csv").then(function(plotData) {
 
 
 
-
-
 });
 
 d3.csv("/static/csv/headlines.csv").then(function(headlines_raw) {
-    console.log(headlines_raw)
+
     var headlines = [];
     var links = [];
 

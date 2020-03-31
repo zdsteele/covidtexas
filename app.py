@@ -22,5 +22,9 @@ def Harris():
     return render_template("Harris.html")
 
 
+@app.route("/Memes")
+def Memes():
+    return render_template("Memes.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

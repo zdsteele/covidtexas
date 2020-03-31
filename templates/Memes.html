@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>COVID-19</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -22,14 +22,13 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <!--CSS -->
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
 
-
 <body>
-
-
 
     <nav class="navbar navbar-inverse">
         <div class="container">
@@ -40,37 +39,19 @@
             </ul>
         </div>
     </nav>
-
-
-
     <div class="container">
-        <div class="jumbotron text-center" style="padding: 0rem 2rem;">
-            <h2 style="color: blue;">Current Texas COVID-19 Cases</h1>
-                <!-- <p><a class="btn btn-primary btn-lg" onclick="Scrape()" role="button">Get Data</a></p>
-        <p>This Button Currently Does Nothing</p> -->
-                <p>Site Under Development</p>
-        </div>
+        <div id="meme_place"> </div>
     </div>
 
-    <div class='container' style="margin-bottom: 20px;">
-        <div class="d-flex flex-row">
-            <div id=meta class="p-2"><strong>Total Texas Cases</strong></div>
-            <!-- <div id=meta_value class="p-2">Info</div> -->
-        </div>
-    </div>
 
-    <!-- <div style="margin-left: 200px; margin-right: 200px; margin-bottom: 200px;" id="map"></div> -->
+    <!-- <img src="https://preview.redd.it/24smtius5dg41.jpg?width=640&crop=smart&auto=webp&s=101d0bdd32f651a3dcd6e5ab3be2b5073884d969"> -->
 
-
-    <div class="container">
-        <div id="map"></div>
-    </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
     <script type="text/javascript" src="../static/js/functions.js"></script>
-    <script type="text/javascript" src="../static/js/mapbox.js"></script>
-    <!-- <script type="text/javascript" src="../static/js/map.js"></script> -->
+    <script type="text/javascript" src="../static/js/Memes.js"></script>
+    <script type="text/javascript" src="../static/js/Harris.js"></script>
 </body>
 
 </html>
