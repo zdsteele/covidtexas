@@ -7,7 +7,6 @@ from splinter import Browser
 from selenium.webdriver.common.keys import Keys
 import time
 import json
-import requests
 from flask import Flask, render_template, jsonify, request, redirect
 
 
