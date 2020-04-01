@@ -18,6 +18,8 @@ d3.csv("/static/csv/memes.csv").then(function(Meme_data) {
 
 });
 
+// help
+
 
 // function Go_Scrape() {
 //     d3.json('/Scrape').then(function(meme_object) {
