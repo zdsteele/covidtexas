@@ -9,7 +9,7 @@ d3.csv("/static/csv/memes.csv").then(function(Meme_data) {
         .append('div')
         .style('margin-bottom', '20px')
         .style('border', '5px solid black')
-        .style('width', 'fit-content')
+        .style('width', 'max-content')
         .html(function(d) {
 
             return "<img" + " " + "src=" + String(d.Memes) + ">"
