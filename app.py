@@ -26,38 +26,90 @@ def Harris():
 def Memes():
     return render_template("Memes.html")
 
-@app.route("/Scrape")
-def Scrape():
+@app.route("/Time")
+def Time():
+    return render_template("Time.html")
 
-    url = 'https://www.reddit.com/r/CoronavirusMemes/'
+@app.route("/county_names")
+def county_names():
+    df = pd.read_excel('Texas COVID-19 Case Count Data by County.xlsx',  sep='\n', header=1).dropna()
+    names = list(df['County Name'])
+    names.pop()
 
-    # Path to chromedriver.exe
-    executable_path = {'executable_path':'chromedriver/chromedriver.exe'}
+    return jsonify(names)
 
-    # Open the Splinter Browswer
-    browser = Browser('chrome', **executable_path, headless=True)
+@app.route("/data/<county>")
+def data(county):
 
-    browser.visit(url)
-    time.sleep(10)
+    df = pd.read_excel('Texas COVID-19 Case Count Data by County.xlsx',  sep='\n', header=1).dropna()
 
-    html = browser.html
-    soup = bs(html, 'html.parser')
+    cols = []
+    raw_cols = list(df.columns)
 
-    memes = soup.find_all('div', class_='_3Oa0THmZ3f5iZXAQ0hBJ0k')
-
-    images = []
-
-    for i in memes:
+    for col in raw_cols:
     
-        image = i.find('img')['src']
-        images.append(image)
+        try:
+        
+            new = col.replace('\n', '')
+            cols.append(new)
+        
+        except:
+        
+            cols.append(col)
 
-    meme_df = pd.DataFrame({"Memes":images})
-    meme_df.to_csv('static/csv/memes.csv', index=False, header=True)
+    res = dict(zip(raw_cols, cols))
 
-    browser.quit()
+    df = df.rename(columns=res)
 
-    return jsonify(meme_df.to_dict('records'))
+    df = df.set_index('County Name')
+
+    time = df.keys()
+
+    x_axis = list(time)
+    x_axis = x_axis[1:]
+    x_axis = list(map(lambda x : x.replace('Cases', '').lstrip(), x_axis))
+    x_axis = list(map(lambda x : x.replace('-', '/'), x_axis))
+
+    
+    df = df.loc[[county]]
+
+    y_axis = df.values.tolist()
+    y_axis = y_axis[0][1:]
+
+    return jsonify(dict(zip(x_axis,y_axis)))
+
+# @app.route("/Scrape")
+# def Scrape():
+
+#     url = 'https://www.reddit.com/r/CoronavirusMemes/'
+
+#     # Path to chromedriver.exe
+#     executable_path = {'executable_path':'chromedriver/chromedriver.exe'}
+
+#     # Open the Splinter Browswer
+#     browser = Browser('chrome', **executable_path, headless=True)
+
+#     browser.visit(url)
+#     time.sleep(10)
+
+#     html = browser.html
+#     soup = bs(html, 'html.parser')
+
+#     memes = soup.find_all('div', class_='_3Oa0THmZ3f5iZXAQ0hBJ0k')
+
+#     images = []
+
+#     for i in memes:
+    
+#         image = i.find('img')['src']
+#         images.append(image)
+
+#     meme_df = pd.DataFrame({"Memes":images})
+#     meme_df.to_csv('static/csv/memes.csv', index=False, header=True)
+
+#     browser.quit()
+
+#     return jsonify(meme_df.to_dict('records'))
     
 
 
