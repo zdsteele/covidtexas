@@ -1,29 +1,4 @@
-County Name,Population,"Cases 
-03-04","Cases 
-03-05","Cases 
-03-06","Cases 
-03-09","Cases 
-03-10","Cases 
-03-11","Cases 
-03-12","Cases 
-03-13","Cases 
-03-15","Cases 
-03-16","Cases 
-03-17","Cases 
-03-18","Cases 
-03-19","Cases 
-03-20","Cases 
-03-21","Cases 
-03-22","Cases 
-03-23","Cases 
-03-24","Cases 
-03-25","Cases 
-03-26","Cases 
-03-27","Cases 
-03-28","Cases 
-03-29","Cases 
-03-30","Cases 
-03-31"
+County Name,Population,Cases 03-04,Cases 03-05,Cases 03-06,Cases 03-09,Cases 03-10,Cases 03-11,Cases 03-12,Cases 03-13,Cases 03-15,Cases 03-16,Cases 03-17,Cases 03-18,Cases 03-19,Cases 03-20,Cases 03-21,Cases 03-22,Cases 03-23,Cases 03-24,Cases 03-25,Cases 03-26,Cases 03-27,Cases 03-28,Cases 03-29,Cases 03-30,Cases 03-31
 Anderson,62245.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 Andrews,17487.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 Angelina,94245.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,3.0,3.0,4.0

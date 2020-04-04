@@ -32,7 +32,7 @@ def Time():
 
 @app.route("/county_names")
 def county_names():
-    df = pd.read_excel('Texas COVID-19 Case Count Data by County.xlsx',  sep='\n', header=1).dropna()
+    df = pd.read_csv('Texas COVID-19 Case Count Data by County.csv').dropna()
     names = list(df['County Name'])
     names.pop()
 
@@ -41,25 +41,25 @@ def county_names():
 @app.route("/data/<county>")
 def data(county):
 
-    df = pd.read_csv('Texas COVID-19 Case Count Data by County.csv',  sep='\n', header=1).dropna()
+    df = pd.read_csv('Texas COVID-19 Case Count Data by County.csv').dropna()
 
-    cols = []
-    raw_cols = list(df.columns)
+    # cols = []
+    # raw_cols = list(df.columns)
 
-    for col in raw_cols:
+    # for col in raw_cols:
     
-        try:
+    #     try:
         
-            new = col.replace('\n', '')
-            cols.append(new)
+    #         new = col.replace('\n', '')
+    #         cols.append(new)
         
-        except:
+    #     except:
         
-            cols.append(col)
+    #         cols.append(col)
 
-    res = dict(zip(raw_cols, cols))
+    # res = dict(zip(raw_cols, cols))
 
-    df = df.rename(columns=res)
+    # df = df.rename(columns=res)
 
     df = df.set_index('County Name')
 
