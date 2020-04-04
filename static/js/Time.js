@@ -35,17 +35,12 @@ function Scatter_Plot(county) {
         var layout = {
             title: `Cases for ${county} County`,
             xaxis: { title: "Date(MM/DD)" },
-            yaxis: { title: "Cumulative COVID-19 Cases" }
+            yaxis: { title: "Cumulative COVID-19 Cases", yaxis: { range: [0, Math.max(y_axis)] } }
         };
 
-        Plotly.newPlot("scatter", trace, layout)
-
-
-
+        Plotly.newPlot("scatter", trace, layout, { responsive: true })
 
     })
-
-
 };
 
 

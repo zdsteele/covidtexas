@@ -30,16 +30,6 @@ $.getJSON("/static/js/map.json", function(data) {
                 "</h3><hr><p>" + "Cases: " + locations[i].properties.Positive + "</p>" + "<p>" + "Deaths: " + locations[i].properties.Fatalities + "</p>")
 
         );
-        // Setting the marker radius for the city by passing population into the markerSize function
-        // cityMarkers.push(
-        //   L.circle(locations[i].coordinates, {
-        //     stroke: false,
-        //     fillOpacity: 0.75,
-        //     color: "purple",
-        //     fillColor: "purple",
-        //     radius: markerSize(locations[i].city.population)
-        //   })
-        // );
     }
 
     // Define variables for our base layers
