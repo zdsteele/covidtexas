@@ -3,7 +3,7 @@ function init() {
     var selector = d3.select("#selDataset");
 
     // Use the list of sample names to populate the select options
-    d3.json("/county_names", sample => {
+    d3.json("/county_names", function(sampleNames) {
         sampleNames.forEach(function(sample) {
             selector
                 .append("option")
@@ -18,7 +18,7 @@ function Scatter_Plot(county) {
 
     var time_data = `/data/${county}`;
 
-    d3.json(time_data).then(function(data) {
+    d3.json(time_data, function(data) {
 
 
         x_axis = Object.keys(data);
