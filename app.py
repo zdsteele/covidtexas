@@ -41,7 +41,7 @@ def county_names():
 @app.route("/data/<county>")
 def data(county):
 
-    df = pd.read_excel('Texas COVID-19 Case Count Data by County.xlsx',  sep='\n', header=1).dropna()
+    df = pd.read_csv('Texas COVID-19 Case Count Data by County.csv',  sep='\n', header=1).dropna()
 
     cols = []
     raw_cols = list(df.columns)
