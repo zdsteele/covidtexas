@@ -3,8 +3,8 @@ function init() {
     var selector = d3.select("#selDataset");
 
     // Use the list of sample names to populate the select options
-    d3.json("/county_names").then((sampleNames) => {
-        sampleNames.forEach((sample) => {
+    d3.json("/county_names").then(function(sampleNames) {
+        sampleNames.forEach(function(sample) {
             selector
                 .append("option")
                 .text(sample)
