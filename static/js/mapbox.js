@@ -143,6 +143,48 @@ d3.csv("/static/csv/stats.csv", function(tex) {
 });
 
 
+d3.csv("/static/csv/CaseCountData.csv", function(county_csv_data) {
+    // Example found from here
+    // http://bl.ocks.org/yan2014/c9dd6919658991d33b87
+    console.log(county_csv_data)
+    var countyArray = [];
+
+    county_csv_data.forEach(function(row, i) {
+
+        countyArray.push([row.County, row.Positive, row.Fatalities])
+    });
+
+    var table = d3.select("#countyTable")
+    var header = table.append("thead").attr("class", "thead-dark").append("tr");
+    header
+        .selectAll("th")
+        .data(["County", "Cases", "Fatalities"])
+        .enter()
+        .append("th")
+        .text(function(d) { return d; })
+
+    var tablebody = table.append("tbody");
+    rows = tablebody
+        .selectAll("tr")
+        .data(countyArray)
+        .enter()
+        .append("tr");
+
+    cells = rows.selectAll("td")
+        .data(function(d) {
+            return d;
+        })
+        .enter()
+        .append("td")
+        .text(function(d) {
+            return d;
+        });
+
+
+});
+
+
+
 
 
 // $.getJSON("/static/js/map.json", function(data) {
