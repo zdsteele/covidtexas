@@ -23,7 +23,7 @@ function Scatter_Plot(county) {
 
         x_axis = Object.keys(data);
         y_axis = Object.values(data);
-        console.log(x_axis)
+
 
         var trace = [{
             x: x_axis,
@@ -34,8 +34,9 @@ function Scatter_Plot(county) {
 
         var layout = {
             title: `Cases for ${county} County`,
-            xaxis: { title: "Date(MM/DD)" },
-            yaxis: { title: "Cumulative COVID-19 Cases", yaxis: { range: [0, Math.max(y_axis)] } }
+            xaxis: { title: "Date(MM/DD)", mirror: true, showline: true },
+            yaxis: { title: "Cumulative COVID-19 Cases", yaxis: { range: [0, Math.max(y_axis)] }, showline: true, mirror: true, zeroline: false },
+
         };
 
         Plotly.newPlot("scatter", trace, layout, { responsive: true })

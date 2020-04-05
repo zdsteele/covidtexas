@@ -9,7 +9,8 @@ var myMap = L.map("map", {
 
 L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
     attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-    maxZoom: 18,
+    maxZoom: 10,
+    minZoom: 5,
     id: "mapbox.streets",
     accessToken: API_KEY
 }).addTo(myMap);
@@ -74,7 +75,7 @@ d3.json(link, function(data) {
         scale: ["#ffffb2", "#b10026"],
 
         // Number of breaks in step range
-        steps: 10,
+        steps: 15,
 
         // q for quartile, e for equidistant, k for k-means
         mode: "q",
@@ -89,6 +90,13 @@ d3.json(link, function(data) {
         onEachFeature: function(feature, layer) {
             layer.bindPopup("County: " + feature.properties.name + "<br>Confirmed Cases:<br>" + feature.properties.cases +
                 "<br>Deaths:<br>" + feature.properties.deaths);
+
+            layer.on({
+                click: function() {
+
+                    Scatter_Plot(feature.properties.name)
+                }
+            })
         }
     }).addTo(myMap);
 
@@ -121,6 +129,20 @@ d3.json(link, function(data) {
     legend.addTo(myMap);
 
 });
+
+d3.csv("/static/csv/stats.csv", function(tex) {
+
+    stats = tex[0]
+
+    var table = d3.select("#meta");
+
+    Object.entries(stats).forEach(function([key, value]) {
+
+        table.append("p").text(`${key}: ${value}`)
+    });
+});
+
+
 
 
 // $.getJSON("/static/js/map.json", function(data) {
