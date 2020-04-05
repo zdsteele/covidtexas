@@ -2,7 +2,7 @@ API_KEY = 'pk.eyJ1IjoiemRzdGVlbGUiLCJhIjoiY2sycnJsejJyMGJsajNtbnhqNWdhMXk3bCJ9.i
     // https://raw.githubusercontent.com/TNRIS/tx.geojson/master/counties/tx_counties.topojson
 
 var myMap = L.map("map", {
-    center: [25.00, -99.90],
+    center: [30.00, -99.90],
     zoom: 6,
     // layers: [streetmap, texas]
 });
@@ -18,80 +18,109 @@ var link = "static/js/updated_geo.json";
 
 
 
+// d3.json(link, function(data) {
+
+//     // console.log(data)
+
+//     L.geoJson(data, {
+//         style: function(feature) {
+//             return {
+//                 color: "blue",
+//                 fillColor: fillColor(feature.properties.new_data[1]),
+//                 fillOpacity: 0.25,
+//                 weight: 1.5
+//             }
+//         },
+
+//         onEachFeature: function(feature, layer) {
+
+//             layer.on({
+//                 // When a user's mouse touches a map feature, the mouseover event calls this function, that feature's opacity changes to 90% so that it stands out
+//                 mouseover: function(event) {
+//                     layer = event.target;
+//                     layer.setStyle({
+//                         fillOpacity: 0.9
+//                     });
+//                 },
+//                 // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%
+//                 mouseout: function(event) {
+//                     layer = event.target;
+//                     layer.setStyle({
+//                         fillOpacity: 0.25
+//                     });
+//                 },
+//                 // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
+//                 // click: function(event) {
+//                 //     myMap.fitBounds(event.target.getBounds());
+//                 // }
+//             });
+//             layer.bindPopup("<h1>" + feature.properties.name + "</h1> <hr> <h3>" + "Confirmed Cases:" + feature.properties.new_data[1] + "</h3>");
+
+//         }
+//     }).addTo(myMap);
+
+// });
+
+
 d3.json(link, function(data) {
 
-    // console.log(data)
+    // Create a new choropleth layer
+    geojson = L.choropleth(data, {
 
-    L.geoJson(data, {
-        style: function(feature) {
-            return {
-                color: "blue",
-                fillColor: fillColor(feature.properties.new_data[1]),
-                fillOpacity: 0.25,
-                weight: 1.5
-            }
+        // Define what  property in the features to use
+        valueProperty: 'cases',
+
+        // Set color scale
+        scale: ["#ffffb2", "#b10026"],
+
+        // Number of breaks in step range
+        steps: 10,
+
+        // q for quartile, e for equidistant, k for k-means
+        mode: "q",
+        style: {
+            // Border color
+            color: "#fff",
+            weight: 1,
+            fillOpacity: 0.8
         },
 
+        // Binding a pop-up to each layer
         onEachFeature: function(feature, layer) {
-
-            layer.on({
-                // When a user's mouse touches a map feature, the mouseover event calls this function, that feature's opacity changes to 90% so that it stands out
-                mouseover: function(event) {
-                    layer = event.target;
-                    layer.setStyle({
-                        fillOpacity: 0.9
-                    });
-                },
-                // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%
-                mouseout: function(event) {
-                    layer = event.target;
-                    layer.setStyle({
-                        fillOpacity: 0.25
-                    });
-                },
-                // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
-                // click: function(event) {
-                //     myMap.fitBounds(event.target.getBounds());
-                // }
-            });
-            layer.bindPopup("<h1>" + feature.properties.name + "</h1> <hr> <h3>" + "Confirmed Cases:" + feature.properties.new_data[1] + "</h3>");
-
+            layer.bindPopup("County: " + feature.properties.name + "<br>Confirmed Cases:<br>" + feature.properties.cases +
+                "<br>Deaths:<br>" + feature.properties.deaths);
         }
     }).addTo(myMap);
 
+    // Set up the legend
+    var legend = L.control({ position: "bottomright" });
+    legend.onAdd = function() {
+        var div = L.DomUtil.create("div", "info legend");
+        var limits = geojson.options.limits;
+        var colors = geojson.options.colors;
+        var labels = [];
+
+        // Add min & max
+        var legendInfo = "<h3>Covid-19 Cases</h3>" +
+            "<div class=\"labels\">" +
+            "<div class=\"min\">" + limits[0] + "</div>" +
+            "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
+            "</div>";
+
+        div.innerHTML = legendInfo;
+
+        limits.forEach(function(limit, index) {
+            labels.push("<li style=\"background-color: " + colors[index] + "\"></li>");
+        });
+
+        div.innerHTML += "<ul>" + labels.join("") + "</ul>";
+        return div;
+    };
+
+    // Adding legend to the map
+    legend.addTo(myMap);
+
 });
-
-
-
-d3.json("/static/js/map.json", function(case_data) {
-    console.log(case_data)
-
-
-
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // $.getJSON("/static/js/map.json", function(data) {
