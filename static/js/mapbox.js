@@ -151,7 +151,7 @@ d3.csv("/static/csv/CaseCountData.csv", function(county_csv_data) {
 
     county_csv_data.forEach(function(row, i) {
 
-        countyArray.push([row.County, row.Positive, row.Fatalities])
+        countyArray.push([row.County, row.Cases, row.Fatalities])
     });
 
     var table = d3.select("#countyTable")
