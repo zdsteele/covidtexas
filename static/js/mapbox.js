@@ -18,51 +18,6 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 var link = "static/js/updated_geo.json";
 
 
-
-// d3.json(link, function(data) {
-
-//     // console.log(data)
-
-//     L.geoJson(data, {
-//         style: function(feature) {
-//             return {
-//                 color: "blue",
-//                 fillColor: fillColor(feature.properties.new_data[1]),
-//                 fillOpacity: 0.25,
-//                 weight: 1.5
-//             }
-//         },
-
-//         onEachFeature: function(feature, layer) {
-
-//             layer.on({
-//                 // When a user's mouse touches a map feature, the mouseover event calls this function, that feature's opacity changes to 90% so that it stands out
-//                 mouseover: function(event) {
-//                     layer = event.target;
-//                     layer.setStyle({
-//                         fillOpacity: 0.9
-//                     });
-//                 },
-//                 // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%
-//                 mouseout: function(event) {
-//                     layer = event.target;
-//                     layer.setStyle({
-//                         fillOpacity: 0.25
-//                     });
-//                 },
-//                 // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
-//                 // click: function(event) {
-//                 //     myMap.fitBounds(event.target.getBounds());
-//                 // }
-//             });
-//             layer.bindPopup("<h1>" + feature.properties.name + "</h1> <hr> <h3>" + "Confirmed Cases:" + feature.properties.new_data[1] + "</h3>");
-
-//         }
-//     }).addTo(myMap);
-
-// });
-
-
 d3.json(link, function(data) {
 
     // Create a new choropleth layer
@@ -151,7 +106,7 @@ d3.csv("/static/csv/CaseCountData.csv", function(county_csv_data) {
 
     county_csv_data.forEach(function(row, i) {
 
-        countyArray.push([row.County, row.Cases, row.Fatalities])
+        countyArray.push([row.County, row.Positive, row.Fatalities])
     });
 
     var table = d3.select("#countyTable")
